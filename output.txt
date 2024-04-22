@@ -1,0 +1,2070 @@
+METHOD -> sun/reflect/Reflection.<clinit>()V (000000000002CAF8)
+/*---------------STATS --------------*/
+ add 6, sub 3, mul 0, div 0
+ total 9
+METHOD -> sun/misc/Unsafe.<clinit>()V (000000000002B448)
+/*---------------STATS --------------*/
+ add 2, sub 1, mul 0, div 0
+ total 3
+METHOD -> java/util/Properties.<clinit>()V (00000000000361B0)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/lang/Class.<clinit>()V (0000000000021F68)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/lang/Float.<clinit>()V (0000000000036BF0)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/lang/Double.<clinit>()V (00000000000392B0)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/lang/Math.<clinit>()V (0000000000038780)
+/*---------------STATS --------------*/
+ add 2, sub 0, mul 0, div 0
+ total 2
+METHOD -> sun/misc/VM.<clinit>()V (0000000000034050)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 1, div 0
+ total 1
+METHOD -> com/ibm/jit/JITHelpers.<clinit>()V (0000000000029628)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 1, div 0
+ total 1
+METHOD -> java/lang/String.<clinit>()V (0000000000027468)
+/*---------------STATS --------------*/
+ add 0, sub 256, mul 1024, div 0
+ total 1280
+METHOD -> java/lang/Thread.<clinit>()V (000000000003C048)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/lang/ClassLoader.<clinit>()V (000000000003E2F0)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/lang/Throwable.<clinit>()V (0000000000041DA0)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/util/HashSet.<clinit>()V (0000000000061358)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/util/Arrays.<clinit>()V (0000000000062A90)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/util/Collections.<clinit>()V (0000000000068218)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/lang/Byte.<clinit>()V (00000000000452B0)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/lang/Character.<clinit>()V (0000000000046330)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/lang/Integer.<clinit>()V (0000000000047DE8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/lang/Long.<clinit>()V (0000000000048DE8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/lang/Short.<clinit>()V (0000000000047208)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/lang/Boolean.<clinit>()V (0000000000044B80)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/lang/invoke/MethodTypeHelper.<clinit>()V (000000000005EF98)
+/*---------------STATS --------------*/
+ add 26, sub 9, mul 1, div 1
+ total 37
+METHOD -> java/lang/invoke/MethodHandleResolver.<clinit>()V (000000000006AF08)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/lang/Runtime.<clinit>()V (0000000000063050)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/lang/System.<clinit>()V (0000000000032760)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/lang/invoke/MethodHandles$Lookup.<clinit>()V (000000000006CE90)
+/*---------------STATS --------------*/
+ add 0, sub 2, mul 0, div 0
+ total 2
+METHOD -> java/lang/ThreadGroup.<init>()V (000000000004EBD0)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> sun/misc/Version.<clinit>()V (000000000006F508)
+/*---------------STATS --------------*/
+ add 6, sub 0, mul 0, div 0
+ total 6
+METHOD -> java/lang/StringBuilder.<clinit>()V (0000000000071B98)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/lang/StringBuffer.<clinit>()V (0000000000070E68)
+/*---------------STATS --------------*/
+ add 4, sub 3, mul 0, div 0
+ total 7
+METHOD -> java/security/AccessController.<clinit>()V (0000000000074A70)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> sun/reflect/ReflectionFactory.<clinit>()V (0000000000075B08)
+/*---------------STATS --------------*/
+ add 0, sub 1, mul 0, div 0
+ total 1
+METHOD -> java/lang/reflect/AccessibleObject.<clinit>()V (0000000000049DD8)
+/*---------------STATS --------------*/
+ add 0, sub 1, mul 0, div 0
+ total 1
+METHOD -> java/lang/String$UnsafeHelpers.<clinit>()V (00000000000728E0)
+/*---------------STATS --------------*/
+ add 0, sub 1, mul 0, div 0
+ total 1
+METHOD -> java/lang/CharacterDataLatin1.<clinit>()V (0000000000078788)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> jdk/internal/util/StaticProperty.<clinit>()V (0000000000074AD8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> sun/misc/SharedSecrets.<clinit>()V (0000000000079EC0)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/util/concurrent/atomic/AtomicInteger.<clinit>()V (000000000007B8B0)
+/*---------------STATS --------------*/
+ add 0, sub 1, mul 0, div 0
+ total 1
+METHOD -> java/lang/ThreadLocal.<clinit>()V (000000000007B598)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/lang/StringCoding.<clinit>()V (000000000007AD38)
+/*---------------STATS --------------*/
+ add 2, sub 0, mul 0, div 0
+ total 2
+METHOD -> sun/nio/cs/StandardCharsets.<clinit>()V (000000000007E358)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/nio/charset/Charset.<clinit>()V (000000000007C798)
+/*---------------STATS --------------*/
+ add 1, sub 0, mul 0, div 0
+ total 1
+METHOD -> sun/nio/cs/UTF_8.<init>()V (0000000000081930)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/lang/ref/Reference.<clinit>()V (000000000004F8C0)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/nio/charset/CharsetEncoder.<clinit>()V (0000000000083D08)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/nio/charset/CodingErrorAction.<clinit>()V (00000000000840A8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/io/FileOutputStream.<clinit>()V (00000000000872D8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/io/FileDescriptor.<clinit>()V (0000000000087B00)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> sun/nio/cs/StreamEncoder.<clinit>()V (00000000000894C8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/nio/HeapByteBuffer.<clinit>()V (000000000008B768)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/nio/ByteOrder.<clinit>()V (00000000000514D8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/util/concurrent/atomic/AtomicLong.<clinit>()V (000000000008E6D0)
+/*---------------STATS --------------*/
+ add 0, sub 1, mul 0, div 0
+ total 1
+METHOD -> java/nio/Bits.<clinit>()V (000000000008D428)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/io/BufferedWriter.<clinit>()V (000000000008F798)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/util/WeakHashMap.<clinit>()V (00000000000901F0)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/lang/Class$ReflectRef.<clinit>()V (000000000008EDD0)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/lang/ClassLoader$ClassNameLockRef.<clinit>()V (0000000000084FD0)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/lang/ref/ReferenceQueue.<clinit>()V (00000000000902D8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> sun/security/util/Debug.<clinit>()V (0000000000093950)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/security/ProtectionDomain.<clinit>()V (0000000000093270)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/AbstractClassLoader.<clinit>()V (00000000000954F0)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.<clinit>()V (0000000000095C78)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> sun/misc/Launcher$Factory.<clinit>()V (00000000000986D8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/security/SecureClassLoader.<clinit>()V (00000000000993B8)
+/*---------------STATS --------------*/
+ add 2, sub 2, mul 0, div 0
+ total 4
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/net/URLClassLoader.<clinit>()V (000000000009A840)
+/*---------------STATS --------------*/
+ add 2, sub 3, mul 0, div 0
+ total 5
+METHOD -> sun/misc/Launcher$ExtClassLoader.<clinit>()V (000000000009B640)
+/*---------------STATS --------------*/
+ add 2, sub 3, mul 0, div 0
+ total 5
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/io/FileSystem.<clinit>()V (000000000009FC50)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/io/UnixFileSystem.<clinit>()V (00000000000A0998)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/io/File.<clinit>()V (000000000009F240)
+/*---------------STATS --------------*/
+ add 78, sub 11, mul 0, div 0
+ total 89
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> sun/misc/MetaIndex.<clinit>()V (000000000009D9E0)
+/*---------------STATS --------------*/
+ add 0, sub 2, mul 0, div 0
+ total 2
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/io/File$PathStatus.<clinit>()V (00000000000A27B8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/lang/System.getProperty(Ljava/lang/String;)Ljava/lang/String; (0000000000032440)
+/*---------------STATS --------------*/
+ add 49, sub 17, mul 0, div 0
+ total 66
+METHOD -> java/nio/charset/Charset.isSupported(Ljava/lang/String;)Z (000000000007C458)
+/*---------------STATS --------------*/
+ add 10, sub 1, mul 0, div 0
+ total 11
+METHOD -> java/lang/String.getBytes(Ljava/lang/String;)[B (0000000000026AA8)
+/*---------------STATS --------------*/
+ add 2, sub 1, mul 1, div 0
+ total 4
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/io/BufferedReader.<clinit>()V (000000000009BA08)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/io/FileInputStream.<clinit>()V (00000000000A5598)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/lang/String.getBytes(Ljava/lang/String;)[B (0000000000026AA8)
+/*---------------STATS --------------*/
+ add 2, sub 1, mul 1, div 0
+ total 4
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> sun/nio/cs/StreamDecoder.<clinit>()V (00000000000A61D8)
+/*---------------STATS --------------*/
+ add 0, sub 2, mul 0, div 0
+ total 2
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/nio/charset/CharsetDecoder.<clinit>()V (00000000000A6D90)
+/*---------------STATS --------------*/
+ add 0, sub 2, mul 0, div 0
+ total 2
+METHOD -> sun/nio/cs/UTF_8$Decoder.<clinit>()V (00000000000A79E8)
+/*---------------STATS --------------*/
+ add 0, sub 2, mul 0, div 0
+ total 2
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/util/ArrayList.<clinit>()V (00000000000A8A48)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/lang/String.getBytes(Ljava/lang/String;)[B (0000000000026AA8)
+/*---------------STATS --------------*/
+ add 2, sub 1, mul 1, div 0
+ total 4
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/lang/String.<init>([BLjava/lang/String;)V (00000000000266A8)
+/*---------------STATS --------------*/
+ add 6, sub 4, mul 1, div 0
+ total 11
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/lang/String.getBytes(Ljava/lang/String;)[B (0000000000026AA8)
+/*---------------STATS --------------*/
+ add 2, sub 1, mul 1, div 0
+ total 4
+METHOD -> java/lang/String.getBytes(Ljava/lang/String;)[B (0000000000026AA8)
+/*---------------STATS --------------*/
+ add 2, sub 1, mul 1, div 0
+ total 4
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/nio/CharBuffer.<clinit>()V (00000000000A9B48)
+/*---------------STATS --------------*/
+ add 0, sub 2, mul 0, div 0
+ total 2
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/nio/HeapCharBuffer.<clinit>()V (00000000000AAEA8)
+/*---------------STATS --------------*/
+ add 0, sub 2, mul 0, div 0
+ total 2
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/nio/charset/CoderResult.<clinit>()V (00000000000AB578)
+/*---------------STATS --------------*/
+ add 0, sub 2, mul 0, div 0
+ total 2
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/lang/Void.<clinit>()V (00000000000B39D8)
+/*---------------STATS --------------*/
+ add 0, sub 1, mul 0, div 0
+ total 1
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/lang/String.getBytes(Ljava/lang/String;)[B (0000000000026AA8)
+/*---------------STATS --------------*/
+ add 2, sub 1, mul 1, div 0
+ total 4
+METHOD -> java/lang/String.<init>([BLjava/lang/String;)V (00000000000266A8)
+/*---------------STATS --------------*/
+ add 1, sub 2, mul 1, div 0
+ total 4
+METHOD -> java/lang/String.<init>([BLjava/lang/String;)V (00000000000266A8)
+/*---------------STATS --------------*/
+ add 1, sub 2, mul 1, div 0
+ total 4
+METHOD -> java/lang/String.<init>([BLjava/lang/String;)V (00000000000266A8)
+/*---------------STATS --------------*/
+ add 1, sub 2, mul 1, div 0
+ total 4
+METHOD -> java/lang/String.<init>([BLjava/lang/String;)V (00000000000266A8)
+/*---------------STATS --------------*/
+ add 1, sub 2, mul 1, div 0
+ total 4
+METHOD -> java/lang/String.<init>([BLjava/lang/String;)V (00000000000266A8)
+/*---------------STATS --------------*/
+ add 1, sub 2, mul 1, div 0
+ total 4
+METHOD -> java/lang/String.<init>([BLjava/lang/String;)V (00000000000266A8)
+/*---------------STATS --------------*/
+ add 1, sub 2, mul 1, div 0
+ total 4
+METHOD -> java/lang/String.<init>([BLjava/lang/String;)V (00000000000266A8)
+/*---------------STATS --------------*/
+ add 1, sub 2, mul 1, div 0
+ total 4
+METHOD -> java/lang/String.<init>([BLjava/lang/String;)V (00000000000266A8)
+/*---------------STATS --------------*/
+ add 1, sub 2, mul 1, div 0
+ total 4
+METHOD -> java/lang/String.<init>([BLjava/lang/String;)V (00000000000266A8)
+/*---------------STATS --------------*/
+ add 1, sub 2, mul 1, div 0
+ total 4
+METHOD -> java/lang/String.<init>([BLjava/lang/String;)V (00000000000266A8)
+/*---------------STATS --------------*/
+ add 1, sub 2, mul 1, div 0
+ total 4
+METHOD -> java/lang/String.<init>([BLjava/lang/String;)V (00000000000266A8)
+/*---------------STATS --------------*/
+ add 1, sub 2, mul 1, div 0
+ total 4
+METHOD -> java/lang/String.<init>([BLjava/lang/String;)V (00000000000266A8)
+/*---------------STATS --------------*/
+ add 1, sub 2, mul 1, div 0
+ total 4
+METHOD -> java/lang/String.<init>([BLjava/lang/String;)V (00000000000266A8)
+/*---------------STATS --------------*/
+ add 1, sub 2, mul 1, div 0
+ total 4
+METHOD -> java/lang/String.getBytes(Ljava/lang/String;)[B (0000000000026AA8)
+/*---------------STATS --------------*/
+ add 2, sub 1, mul 1, div 0
+ total 4
+METHOD -> java/lang/String.<init>([BLjava/lang/String;)V (00000000000266A8)
+/*---------------STATS --------------*/
+ add 1, sub 2, mul 1, div 0
+ total 4
+METHOD -> java/lang/String.getBytes(Ljava/lang/String;)[B (0000000000026AA8)
+/*---------------STATS --------------*/
+ add 2, sub 1, mul 1, div 0
+ total 4
+METHOD -> java/lang/String.getBytes(Ljava/lang/String;)[B (0000000000026AA8)
+/*---------------STATS --------------*/
+ add 2, sub 1, mul 1, div 0
+ total 4
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/util/BitSet.<clinit>()V (00000000000B5FA8)
+/*---------------STATS --------------*/
+ add 2, sub 3, mul 0, div 0
+ total 5
+METHOD -> sun/net/www/ParseUtil.<clinit>()V (00000000000B4E50)
+/*---------------STATS --------------*/
+ add 52, sub 21, mul 0, div 0
+ total 73
+METHOD -> java/lang/String.getBytes(Ljava/lang/String;)[B (0000000000026AA8)
+/*---------------STATS --------------*/
+ add 2, sub 1, mul 1, div 0
+ total 4
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/net/URL.<clinit>()V (00000000000B7570)
+/*---------------STATS --------------*/
+ add 32, sub 22, mul 1, div 0
+ total 55
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/util/concurrent/ConcurrentHashMap.<clinit>()V (00000000000BCC10)
+/*---------------STATS --------------*/
+ add 10, sub 17, mul 0, div 0
+ total 27
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> sun/util/locale/BaseLocale$Cache.<clinit>()V (00000000000BF0E8)
+/*---------------STATS --------------*/
+ add 0, sub 2, mul 0, div 0
+ total 2
+METHOD -> sun/util/locale/BaseLocale.<clinit>()V (00000000000BEC60)
+/*---------------STATS --------------*/
+ add 2, sub 1, mul 0, div 1
+ total 4
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> sun/util/locale/BaseLocale$Key.<clinit>()V (00000000000BF720)
+/*---------------STATS --------------*/
+ add 0, sub 2, mul 0, div 0
+ total 2
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/util/Locale.<clinit>()V (00000000000B9568)
+/*---------------STATS --------------*/
+ add 348, sub 87, mul 83, div 1
+ total 519
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> sun/net/www/protocol/file/Handler.<init>()V (0000000000097A20)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> sun/net/util/IPAddressUtil.<clinit>()V (00000000000C0D88)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/lang/String.getBytes(Ljava/lang/String;)[B (0000000000026AA8)
+/*---------------STATS --------------*/
+ add 2, sub 1, mul 1, div 0
+ total 4
+METHOD -> java/lang/String.getBytes(Ljava/lang/String;)[B (0000000000026AA8)
+/*---------------STATS --------------*/
+ add 2, sub 1, mul 1, div 0
+ total 4
+METHOD -> java/lang/String.getBytes(Ljava/lang/String;)[B (0000000000026AA8)
+/*---------------STATS --------------*/
+ add 2, sub 1, mul 1, div 0
+ total 4
+METHOD -> java/lang/String.getBytes(Ljava/lang/String;)[B (0000000000026AA8)
+/*---------------STATS --------------*/
+ add 2, sub 1, mul 1, div 0
+ total 4
+METHOD -> java/lang/String.getBytes(Ljava/lang/String;)[B (0000000000026AA8)
+/*---------------STATS --------------*/
+ add 2, sub 1, mul 1, div 0
+ total 4
+METHOD -> java/lang/String.getBytes(Ljava/lang/String;)[B (0000000000026AA8)
+/*---------------STATS --------------*/
+ add 2, sub 1, mul 1, div 0
+ total 4
+METHOD -> java/lang/String.getBytes(Ljava/lang/String;)[B (0000000000026AA8)
+/*---------------STATS --------------*/
+ add 2, sub 1, mul 1, div 0
+ total 4
+METHOD -> java/lang/String.getBytes(Ljava/lang/String;)[B (0000000000026AA8)
+/*---------------STATS --------------*/
+ add 2, sub 1, mul 1, div 0
+ total 4
+METHOD -> java/lang/String.getBytes(Ljava/lang/String;)[B (0000000000026AA8)
+/*---------------STATS --------------*/
+ add 2, sub 1, mul 1, div 0
+ total 4
+METHOD -> java/lang/String.getBytes(Ljava/lang/String;)[B (0000000000026AA8)
+/*---------------STATS --------------*/
+ add 2, sub 1, mul 1, div 0
+ total 4
+METHOD -> java/lang/String.getBytes(Ljava/lang/String;)[B (0000000000026AA8)
+/*---------------STATS --------------*/
+ add 2, sub 1, mul 1, div 0
+ total 4
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/shared/Shared.<clinit>()V (00000000000C1588)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/security/AccessControlContext.<clinit>()V (00000000000C25A0)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> sun/misc/URLClassPath.<clinit>()V (00000000000C3E70)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> sun/net/www/protocol/jar/Handler.<init>()V (0000000000097328)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> sun/misc/Launcher$AppClassLoader.<clinit>()V (00000000000C4BD0)
+/*---------------STATS --------------*/
+ add 2, sub 5, mul 0, div 0
+ total 7
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/lang/String.getBytes(Ljava/lang/String;)[B (0000000000026AA8)
+/*---------------STATS --------------*/
+ add 2, sub 1, mul 1, div 0
+ total 4
+METHOD -> java/lang/String.<init>([BLjava/lang/String;)V (00000000000266A8)
+/*---------------STATS --------------*/
+ add 1, sub 2, mul 1, div 0
+ total 4
+METHOD -> java/lang/String.getBytes(Ljava/lang/String;)[B (0000000000026AA8)
+/*---------------STATS --------------*/
+ add 2, sub 1, mul 1, div 0
+ total 4
+METHOD -> sun/net/www/protocol/jar/Handler.<init>()V (0000000000097328)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> sun/misc/Launcher.<clinit>()V (0000000000098628)
+/*---------------STATS --------------*/
+ add 12720, sub 6910, mul 17, div 0
+ total 19647
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/util/concurrent/atomic/AtomicReferenceFieldUpdater$AtomicReferenceFieldUpdaterImpl.<clinit>()V (00000000000C6AD0)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/lang/reflect/Modifier.<clinit>()V (00000000000C7988)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/io/BufferedInputStream.<clinit>()V (00000000000C5CC8)
+/*---------------STATS --------------*/
+ add 0, sub 5, mul 0, div 0
+ total 5
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/lang/Terminator.<clinit>()V (00000000000970D8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> sun/misc/Signal.<clinit>()V (00000000000C9550)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 2, div 0
+ total 2
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/lang/Integer$IntegerCache.<clinit>()V (00000000000C81B0)
+/*---------------STATS --------------*/
+ add 1, sub 3, mul 0, div 0
+ total 4
+METHOD -> sun/misc/SignalHandler.<clinit>()V (00000000000C8AD8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/lang/Thread.<init>(Ljava/lang/String;Ljava/lang/Object;IZ)V (000000000003B748)
+/*---------------STATS --------------*/
+ add 1749, sub 1144, mul 21, div 2
+ total 2916
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/lang/ClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (000000000003DD30)
+/*---------------STATS --------------*/
+ add 29, sub 25, mul 2, div 0
+ total 56
+METHOD -> java/lang/ClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (000000000003DD30)
+/*---------------STATS --------------*/
+ add 36, sub 32, mul 0, div 0
+ total 68
+METHOD -> java/lang/ClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (000000000003DD30)
+/*---------------STATS --------------*/
+ add 34, sub 30, mul 0, div 0
+ total 64
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/lang/invoke/ThunkTuple.<clinit>()V (0000000000059EE0)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/lang/invoke/MethodHandle.<clinit>()V (0000000000030398)
+/*---------------STATS --------------*/
+ add 0, sub 2, mul 0, div 0
+ total 2
+METHOD -> java/lang/ClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (000000000003DD30)
+/*---------------STATS --------------*/
+ add 27, sub 23, mul 0, div 0
+ total 50
+METHOD -> java/lang/String.<init>([BLjava/lang/String;)V (00000000000266A8)
+/*---------------STATS --------------*/
+ add 0, sub 2, mul 1, div 0
+ total 3
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/lang/J9VMInternals.completeInitialization()V (000000000001C230)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 1, div 0
+ total 1
+METHOD -> java/lang/ClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (000000000003DD30)
+/*---------------STATS --------------*/
+ add 26, sub 22, mul 0, div 0
+ total 48
+METHOD -> java/lang/ClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (000000000003DD30)
+/*---------------STATS --------------*/
+ add 22, sub 18, mul 0, div 0
+ total 40
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/jvm/Trace.<clinit>()V (00000000000CCA28)
+/*---------------STATS --------------*/
+ add 0, sub 1, mul 0, div 0
+ total 1
+METHOD -> java/lang/ClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (000000000003DD30)
+/*---------------STATS --------------*/
+ add 23, sub 19, mul 0, div 0
+ total 42
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/lang/Shutdown.<clinit>()V (00000000000CDB20)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/lang/Thread.<init>(Ljava/lang/String;Ljava/lang/Object;IZ)V (000000000003B748)
+/*---------------STATS --------------*/
+ add 4, sub 2, mul 0, div 0
+ total 6
+METHOD -> java/lang/Thread.<init>(Ljava/lang/String;Ljava/lang/Object;IZ)V (000000000003B748)
+/*---------------STATS --------------*/
+ add 4, sub 2, mul 0, div 0
+ total 6
+METHOD -> java/lang/Thread.<init>(Ljava/lang/String;Ljava/lang/Object;IZ)V (000000000003B748)
+/*---------------STATS --------------*/
+ add 4, sub 2, mul 0, div 0
+ total 6
+METHOD -> java/lang/Thread.<init>(Ljava/lang/String;Ljava/lang/Object;IZ)V (000000000003B748)
+/*---------------STATS --------------*/
+ add 4, sub 2, mul 0, div 0
+ total 6
+METHOD -> java/lang/Thread.<init>(Ljava/lang/String;Ljava/lang/Object;IZ)V (000000000003B748)
+/*---------------STATS --------------*/
+ add 4, sub 2, mul 0, div 0
+ total 6
+METHOD -> java/lang/Thread.<init>(Ljava/lang/String;Ljava/lang/Object;IZ)V (000000000003B748)
+/*---------------STATS --------------*/
+ add 4, sub 2, mul 1, div 0
+ total 7
+METHOD -> java/lang/Thread.<init>(Ljava/lang/String;Ljava/lang/Object;IZ)V (000000000003B748)
+/*---------------STATS --------------*/
+ add 4, sub 2, mul 0, div 0
+ total 6
+METHOD -> java/lang/Thread.<init>(Ljava/lang/String;Ljava/lang/Object;IZ)V (000000000003B748)
+/*---------------STATS --------------*/
+ add 4, sub 2, mul 0, div 0
+ total 6
+METHOD -> java/lang/ClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (000000000003DD30)
+/*---------------STATS --------------*/
+ add 54, sub 50, mul 0, div 0
+ total 104
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> openj9/internal/tools/attach/target/AttachHandler$AttachStateValues.<clinit>()V (0000000000038CD8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> openj9/internal/tools/attach/target/AttachHandler.<clinit>()V (00000000000CF0E0)
+/*---------------STATS --------------*/
+ add 8, sub 4, mul 1, div 0
+ total 13
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/nio/file/attribute/PosixFilePermission.<clinit>()V (0000000000029FD8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/util/EnumSet.<clinit>()V (00000000000D1AC8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/lang/Class$CacheKey.<clinit>()V (00000000000D28C0)
+/*---------------STATS --------------*/
+ add 6, sub 0, mul 6, div 0
+ total 12
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/lang/reflect/Field.copy()Ljava/lang/reflect/Field; (000000000004A750)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/lang/Class$EnumVars.<clinit>()V (00000000000D1FD8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> sun/reflect/UnsafeFieldAccessorImpl.<clinit>()V (00000000000F3CB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/lang/reflect/Method.copy()Ljava/lang/reflect/Method; (000000000004CA98)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/nio/file/attribute/PosixFilePermission.values()[Ljava/nio/file/attribute/PosixFilePermission; (0000000000029F78)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/lang/reflect/Field.copy()Ljava/lang/reflect/Field; (000000000004A750)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> openj9/internal/tools/attach/target/IPC.<clinit>()V (00000000000D0AF8)
+/*---------------STATS --------------*/
+ add 51, sub 18, mul 6, div 0
+ total 75
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/util/IdentityHashMap.<clinit>()V (00000000000F6BF8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/lang/ApplicationShutdownHooks.<clinit>()V (00000000000F5CD8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 1, div 0
+ total 1
+METHOD -> openj9/internal/tools/attach/target/AttachHandler.initializeAttachAPI()V (00000000000CED20)
+/*---------------STATS --------------*/
+ add 13, sub 9, mul 1, div 0
+ total 23
+METHOD -> java/lang/ClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (000000000003DD30)
+/*---------------STATS --------------*/
+ add 24, sub 18, mul 2, div 0
+ total 44
+METHOD -> java/lang/ClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (000000000003DD30)
+/*---------------STATS --------------*/
+ add 21, sub 17, mul 0, div 0
+ total 38
+METHOD -> java/lang/ClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (000000000003DD30)
+/*---------------STATS --------------*/
+ add 21, sub 17, mul 0, div 0
+ total 38
+METHOD -> java/lang/ClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (000000000003DD30)
+/*---------------STATS --------------*/
+ add 40, sub 36, mul 0, div 0
+ total 76
+METHOD -> java/lang/ClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (000000000003DD30)
+/*---------------STATS --------------*/
+ add 35, sub 31, mul 0, div 0
+ total 66
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> sun/launcher/LauncherHelper.<clinit>()V (00000000000F8710)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> sun/launcher/LauncherHelper.makePlatformString(Z[B)Ljava/lang/String; (00000000000F8690)
+/*---------------STATS --------------*/
+ add 1, sub 2, mul 1, div 0
+ total 4
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> openj9/internal/tools/attach/target/CommonDirectory.<clinit>()V (00000000000FD9A0)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/lang/String.getBytes(Ljava/lang/String;)[B (0000000000026AA8)
+/*---------------STATS --------------*/
+ add 2, sub 1, mul 2, div 1
+ total 6
+METHOD -> java/lang/String.getBytes(Ljava/lang/String;)[B (0000000000026AA8)
+/*---------------STATS --------------*/
+ add 2, sub 1, mul 1, div 0
+ total 4
+METHOD -> java/lang/String.getBytes(Ljava/lang/String;)[B (0000000000026AA8)
+/*---------------STATS --------------*/
+ add 2, sub 1, mul 1, div 0
+ total 4
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/util/zip/ZipFile.<clinit>()V (0000000000101448)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> sun/misc/URLClassPath$JarLoader.<clinit>()V (00000000000FFCE0)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> openj9/internal/tools/attach/target/FileLock.<clinit>()V (00000000001021B0)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/lang/String.getBytes(Ljava/lang/String;)[B (0000000000026AA8)
+/*---------------STATS --------------*/
+ add 2, sub 1, mul 1, div 0
+ total 4
+METHOD -> java/lang/String.<init>([BLjava/lang/String;)V (00000000000266A8)
+/*---------------STATS --------------*/
+ add 6, sub 4, mul 1, div 0
+ total 11
+METHOD -> java/lang/String.<init>([BLjava/lang/String;)V (00000000000266A8)
+/*---------------STATS --------------*/
+ add 1, sub 2, mul 1, div 0
+ total 4
+METHOD -> java/lang/String.<init>([BLjava/lang/String;)V (00000000000266A8)
+/*---------------STATS --------------*/
+ add 1, sub 2, mul 1, div 0
+ total 4
+METHOD -> java/lang/String.getBytes(Ljava/lang/String;)[B (0000000000026AA8)
+/*---------------STATS --------------*/
+ add 2, sub 1, mul 1, div 0
+ total 4
+METHOD -> java/lang/String.getBytes(Ljava/lang/String;)[B (0000000000026AA8)
+/*---------------STATS --------------*/
+ add 2, sub 1, mul 1, div 0
+ total 4
+METHOD -> java/lang/String.getBytes(Ljava/lang/String;)[B (0000000000026AA8)
+/*---------------STATS --------------*/
+ add 2, sub 1, mul 1, div 0
+ total 4
+METHOD -> java/lang/String.getBytes(Ljava/lang/String;)[B (0000000000026AA8)
+/*---------------STATS --------------*/
+ add 2, sub 1, mul 1, div 0
+ total 4
+METHOD -> java/lang/String.getBytes(Ljava/lang/String;)[B (0000000000026AA8)
+/*---------------STATS --------------*/
+ add 2, sub 1, mul 1, div 0
+ total 4
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/lang/String.getBytes(Ljava/lang/String;)[B (0000000000026AA8)
+/*---------------STATS --------------*/
+ add 2, sub 1, mul 1, div 0
+ total 4
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/lang/String.getBytes(Ljava/lang/String;)[B (0000000000026AA8)
+/*---------------STATS --------------*/
+ add 2, sub 1, mul 1, div 0
+ total 4
+METHOD -> java/lang/String.getBytes(Ljava/lang/String;)[B (0000000000026AA8)
+/*---------------STATS --------------*/
+ add 2, sub 1, mul 1, div 0
+ total 4
+METHOD -> java/lang/String.getBytes(Ljava/lang/String;)[B (0000000000026AA8)
+/*---------------STATS --------------*/
+ add 2, sub 1, mul 1, div 0
+ total 4
+METHOD -> java/lang/String.getBytes(Ljava/lang/String;)[B (0000000000026AA8)
+/*---------------STATS --------------*/
+ add 2, sub 1, mul 1, div 0
+ total 4
+METHOD -> java/lang/String.getBytes(Ljava/lang/String;)[B (0000000000026AA8)
+/*---------------STATS --------------*/
+ add 2, sub 1, mul 1, div 0
+ total 4
+METHOD -> java/lang/String.getBytes(Ljava/lang/String;)[B (0000000000026AA8)
+/*---------------STATS --------------*/
+ add 2, sub 1, mul 1, div 0
+ total 4
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/lang/String.getBytes(Ljava/lang/String;)[B (0000000000026AA8)
+/*---------------STATS --------------*/
+ add 2, sub 1, mul 1, div 0
+ total 4
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/lang/String.getBytes(Ljava/lang/String;)[B (0000000000026AA8)
+/*---------------STATS --------------*/
+ add 2, sub 1, mul 1, div 0
+ total 4
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/lang/String.getBytes(Ljava/lang/String;)[B (0000000000026AA8)
+/*---------------STATS --------------*/
+ add 2, sub 1, mul 1, div 0
+ total 4
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/lang/String.getBytes(Ljava/lang/String;)[B (0000000000026AA8)
+/*---------------STATS --------------*/
+ add 2, sub 1, mul 1, div 0
+ total 4
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/nio/file/spi/FileSystemProvider.<clinit>()V (0000000000105DC8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/lang/String.getBytes(Ljava/lang/String;)[B (0000000000026AA8)
+/*---------------STATS --------------*/
+ add 2, sub 1, mul 1, div 0
+ total 4
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/lang/String.getBytes(Ljava/lang/String;)[B (0000000000026AA8)
+/*---------------STATS --------------*/
+ add 2, sub 1, mul 1, div 0
+ total 4
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/lang/String.getBytes(Ljava/lang/String;)[B (0000000000026AA8)
+/*---------------STATS --------------*/
+ add 2, sub 1, mul 1, div 0
+ total 4
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+METHOD -> sun/nio/fs/UnixPath.<clinit>()V (000000000010B5C8)
+/*---------------STATS --------------*/
+ add 1, sub 2, mul 0, div 0
+ total 3
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> sun/nio/fs/Util.<clinit>()V (000000000010C2C0)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/lang/String.getBytes(Ljava/lang/String;)[B (0000000000026AA8)
+/*---------------STATS --------------*/
+ add 2, sub 1, mul 1, div 0
+ total 4
+METHOD -> java/lang/String.<init>([BLjava/lang/String;)V (00000000000266A8)
+/*---------------STATS --------------*/
+ add 1, sub 2, mul 1, div 0
+ total 4
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/util/Util.<clinit>()V (0000000000115420)
+/*---------------STATS --------------*/
+ add 0, sub 1, mul 1, div 0
+ total 2
+METHOD -> java/lang/String.getBytes(Ljava/lang/String;)[B (0000000000026AA8)
+/*---------------STATS --------------*/
+ add 2, sub 1, mul 1, div 0
+ total 4
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/lang/String.getBytes(Ljava/lang/String;)[B (0000000000026AA8)
+/*---------------STATS --------------*/
+ add 2, sub 1, mul 1, div 0
+ total 4
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/lang/String.getBytes(Ljava/lang/String;)[B (0000000000026AA8)
+/*---------------STATS --------------*/
+ add 2, sub 1, mul 1, div 0
+ total 4
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/security/Permissions.<clinit>()V (0000000000116EE8)
+/*---------------STATS --------------*/
+ add 13, sub 8, mul 0, div 0
+ total 21
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/net/URLConnection.<clinit>()V (0000000000119280)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 1, div 0
+ total 1
+METHOD -> sun/net/www/URLConnection.<clinit>()V (0000000000119F88)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> sun/net/www/protocol/file/FileURLConnection.<clinit>()V (000000000011ABC0)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> sun/nio/fs/UnixNativeDispatcher.<clinit>()V (000000000010CCF0)
+/*---------------STATS --------------*/
+ add 78, sub 3, mul 2, div 0
+ total 83
+METHOD -> sun/nio/fs/LinuxFileSystemProvider.<init>()V (0000000000107DF0)
+/*---------------STATS --------------*/
+ add 14, sub 9, mul 2, div 0
+ total 25
+METHOD -> sun/nio/fs/LinuxFileSystemProvider.<init>()V (0000000000107DF0)
+/*---------------STATS --------------*/
+ add 14, sub 9, mul 2, div 0
+ total 25
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/net/URI.<clinit>()V (000000000011E770)
+/*---------------STATS --------------*/
+ add 0, sub 22, mul 0, div 0
+ total 22
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/io/FilePermission.<clinit>()V (000000000011BD48)
+/*---------------STATS --------------*/
+ add 6, sub 15, mul 0, div 0
+ total 21
+METHOD -> java/nio/file/FileSystems$DefaultFileSystemHolder.<clinit>()V (0000000000104B38)
+/*---------------STATS --------------*/
+ add 16, sub 16, mul 0, div 0
+ total 32
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/lang/String.getBytes(Ljava/lang/String;)[B (0000000000026AA8)
+/*---------------STATS --------------*/
+ add 2, sub 1, mul 1, div 0
+ total 4
+METHOD -> java/nio/file/LinkOption.<clinit>()V (000000000011FDB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/lang/String.<init>([BLjava/lang/String;)V (00000000000266A8)
+/*---------------STATS --------------*/
+ add 1, sub 2, mul 1, div 0
+ total 4
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/nio/file/Files.<clinit>()V (0000000000122340)
+/*---------------STATS --------------*/
+ add 0, sub 2, mul 0, div 0
+ total 2
+METHOD -> java/io/FilePermissionCollection.<clinit>()V (0000000000122CA0)
+/*---------------STATS --------------*/
+ add 6, sub 4, mul 0, div 0
+ total 10
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/security/BasicPermissionCollection.<clinit>()V (0000000000104C20)
+/*---------------STATS --------------*/
+ add 13, sub 9, mul 0, div 0
+ total 22
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> sun/launcher/LauncherHelper$FXHelper.<clinit>()V (0000000000125F78)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/lang/ClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (000000000003DD30)
+/*---------------STATS --------------*/
+ add 21, sub 17, mul 0, div 0
+ total 38
+METHOD -> sun/nio/fs/AbstractBasicFileAttributeView.<clinit>()V (0000000000126D88)
+/*---------------STATS --------------*/
+ add 18, sub 9, mul 0, div 0
+ total 27
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/lang/reflect/Method.copy()Ljava/lang/reflect/Method; (000000000004CA98)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> sun/launcher/LauncherHelper.checkAndLoadMain(ZILjava/lang/String;)Ljava/lang/Class; (00000000000F8630)
+/*---------------STATS --------------*/
+ add 4953, sub 5758, mul 11, div 0
+ total 10722
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava6
+8
+/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> sun/launcher/LauncherHelper.getApplicationClass()Ljava/lang/Class; (00000000000F8650)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> sun/nio/fs/UnixFileAttributeViews$Posix.<clinit>()V (0000000000127B50)
+/*---------------STATS --------------*/
+ add 42, sub 13, mul 1, div 1
+ total 57
+METHOD -> sun/launcher/LauncherHelper.makePlatformString(Z[B)Ljava/lang/String; (00000000000F8690)
+/*---------------STATS --------------*/
+ add 1, sub 2, mul 1, div 0
+ total 4
+METHOD -> sun/launcher/LauncherHelper.makePlatformString(Z[B)Ljava/lang/String; (00000000000F8690)
+/*---------------STATS --------------*/
+ add 1, sub 2, mul 1, div 0
+ total 4
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/lang/ClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (000000000003DD30)
+/*---------------STATS --------------*/
+ add 22, sub 18, mul 0, div 0
+ total 40
+METHOD -> sun/nio/fs/NativeBuffers.<clinit>()V (0000000000128D98)
+/*---------------STATS --------------*/
+ add 1, sub 2, mul 0, div 0
+ total 3
+METHOD -> java/lang/ClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (000000000003DD30)
+/*---------------STATS --------------*/
+ add 21, sub 17, mul 0, div 0
+ total 38
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> sun/nio/fs/NativeBuffer.<clinit>()V (00000000001290F0)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/lang/ClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (000000000003DD30)
+/*---------------STATS --------------*/
+ add 28, sub 22, mul 2, div 0
+ total 52
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> sun/misc/Cleaner.<clinit>()V (0000000000091008)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> testing.main([Ljava/lang/String;)V (000000000012C268)
+/*---------------STATS --------------*/
+ add 65, sub 52, mul 5, div 2
+ total 124
+METHOD -> java/lang/J9VMInternals.threadCleanup(Ljava/lang/Thread;)V (000000000001C350)
+/*---------------STATS --------------*/
+ add 1, sub 2, mul 0, div 0
+ total 3
+METHOD -> java/lang/String.getBytes(Ljava/lang/String;)[B (0000000000026AA8)
+/*---------------STATS --------------*/
+ add 2, sub 1, mul 1, div 0
+ total 4
+METHOD -> java/lang/Thread.<init>(Ljava/lang/String;Ljava/lang/Object;IZ)V (000000000003B748)
+/*---------------STATS --------------*/
+ add 4, sub 2, mul 0, div 0
+ total 6
+METHOD -> java/lang/String.getBytes(Ljava/lang/String;)[B (0000000000026AA8)
+/*---------------STATS --------------*/
+ add 2, sub 1, mul 1, div 0
+ total 4
+METHOD -> java/lang/String.getBytes(Ljava/lang/String;)[B (0000000000026AA8)
+/*---------------STATS --------------*/
+ add 2, sub 1, mul 1, div 0
+ total 4
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/lang/String.getBytes(Ljava/lang/String;)[B (0000000000026AA8)
+/*---------------STATS --------------*/
+ add 2, sub 1, mul 1, div 0
+ total 4
+METHOD -> java/lang/String.getBytes(Ljava/lang/String;)[B (0000000000026AA8)
+/*---------------STATS --------------*/
+ add 2, sub 1, mul 1, div 0
+ total 4
+METHOD -> java/lang/String.getBytes(Ljava/lang/String;)[B (0000000000026AA8)
+/*---------------STATS --------------*/
+ add 2, sub 1, mul 1, div 0
+ total 4
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> sun/nio/cs/ISO_8859_1.<init>()V (000000000012A708)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> sun/nio/cs/ISO_8859_1$Encoder.<clinit>()V (000000000012AFB8)
+/*---------------STATS --------------*/
+ add 0, sub 2, mul 0, div 0
+ total 2
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> sun/nio/cs/Surrogate$Parser.<clinit>()V (000000000012B480)
+/*---------------STATS --------------*/
+ add 0, sub 2, mul 0, div 0
+ total 2
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> openj9/internal/tools/attach/target/AttachHandler$1.<clinit>()V (000000000012AFE0)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> openj9/internal/tools/attach/target/AttachHandler.run()V (00000000000CED80)
+/*---------------STATS --------------*/
+ add 406, sub 208, mul 23, div 0
+ total 637
+METHOD -> java/lang/J9VMInternals.threadCleanup(Ljava/lang/Thread;)V (000000000001C350)
+/*---------------STATS --------------*/
+ add 1, sub 2, mul 0, div 0
+ total 3
+METHOD -> java/lang/String.getBytes(Ljava/lang/String;)[B (0000000000026AA8)
+/*---------------STATS --------------*/
+ add 2, sub 1, mul 2, div 1
+ total 6
+METHOD -> java/lang/String.getBytes(Ljava/lang/String;)[B (0000000000026AA8)
+/*---------------STATS --------------*/
+ add 2, sub 1, mul 1, div 0
+ total 4
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> com/ibm/oti/vm/BootstrapClassLoader.loadClass(Ljava/lang/String;)Ljava/lang/Class; (0000000000095BB8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/lang/Thread$State.<clinit>()V (0000000000116FD8)
+/*---------------STATS --------------*/
+ add 0, sub 0, mul 0, div 0
+ total 0
+METHOD -> java/lang/String.getBytes(Ljava/lang/String;)[B (0000000000026AA8)
+/*---------------STATS --------------*/
+ add 2, sub 1, mul 1, div 0
+ total 4
+METHOD -> openj9/internal/tools/attach/target/AttachHandler$teardownHook.run()V (00000000000F5638)
+/*---------------STATS --------------*/
+ add 14, sub 4, mul 2, div 2
+ total 22
+METHOD -> java/lang/J9VMInternals.threadCleanup(Ljava/lang/Thread;)V (000000000001C350)
+/*---------------STATS --------------*/
+ add 0, sub 1, mul 0, div 0
+ total 1
+METHOD -> java/lang/Shutdown.shutdown()V (00000000000CDB00)
+/*---------------STATS --------------*/
+ add 3, sub 1, mul 0, div 0
+ total 4
+METHOD -> java/lang/J9VMInternals.threadCleanup(Ljava/lang/Thread;)V (000000000001C350)
+/*---------------STATS --------------*/
+ add 1, sub 2, mul 0, div 0
+ total 3
+METHOD -> java/lang/J9VMInternals.threadCleanup(Ljava/lang/Thread;)V (000000000001C350)
+/*---------------STATS --------------*/
+ add 1, sub 2, mul 0, div 0
+ total 3
+METHOD -> java/lang/J9VMInternals.threadCleanup(Ljava/lang/Thread;)V (000000000001C350)
+/*---------------STATS --------------*/
+ add 1, sub 2, mul 0, div 0
+ total 3
+METHOD -> java/lang/J9VMInternals.threadCleanup(Ljava/lang/Thread;)V (000000000001C350)
+/*---------------STATS --------------*/
+ add 1, sub 2, mul 0, div 0
+ total 3
+METHOD -> java/lang/J9VMInternals.threadCleanup(Ljava/lang/Thread;)V (000000000001C350)
+/*---------------STATS --------------*/
+ add 1, sub 2, mul 0, div 0
+ total 3
+METHOD -> java/lang/J9VMInternals.threadCleanup(Ljava/lang/Thread;)V (000000000001C350)
+/*---------------STATS --------------*/
+ add 1, sub 2, mul 0, div 0
+ total 3
+METHOD -> java/lang/J9VMInternals.threadCleanup(Ljava/lang/Thread;)V (000000000001C350)
+/*---------------STATS --------------*/
+ add 1, sub 2, mul 0, div 0
+ total 3
+METHOD -> java/lang/J9VMInternals.threadCleanup(Ljava/lang/Thread;)V (000000000001C350)
+/*---------------STATS --------------*/
+ add 1, sub 2, mul 0, div 0
+ total 3
+METHOD -> java/lang/J9VMInternals.threadCleanup(Ljava/lang/Thread;)V (000000000001C350)
+/*---------------STATS --------------*/
+ add 0, sub 1, mul 0, div 0
+ total 1
