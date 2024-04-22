@@ -25,3 +25,11 @@ You should have received a copy of the GNU General Public License version
 1. For details of how to build Eclipse OpenJ9 see https://www.eclipse.org/openj9/oj9_build.html
 
 
+## How to use our analysis
+
+1. Build the system using `make all`
+2. compile your file using `javac -Xint`
+3. run the file using the `java` binary in `build/linux-x86_64-normal-server-release/images/j2re-image/bin/java`
+4. store the result in a file, say `output.txt`
+5. run the `./findStatistics.sh <className> output.txt`
+6. enjoy
