@@ -1,0 +1,64 @@
+public class T1 extends java.lang.Object
+{
+    static int global;
+
+    public void <init>()
+    {
+        T1 r0;
+
+        r0 := @this: T1;
+
+        specialinvoke r0.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+
+    static int foo(int, int)
+    {
+        int i0, i1, $i2, i4;
+
+        i0 := @parameter0: int;
+
+        i1 := @parameter1: int;
+
+        i4 = i0 + 1;
+
+        if i4 != i1 goto label1;
+
+     label1:
+        $i2 = i0 + i1;
+
+        return $i2;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        int $i1, $i2, i6, i8, i9, i10, i11, i12;
+        java.io.PrintStream $r0;
+        java.lang.String[] r1;
+
+        r1 := @parameter0: java.lang.String[];
+
+        i6 = 1 + 1;
+
+        $i1 = 1 * 3;
+
+        $i2 = 3 + $i1;
+
+        i8 = $i2 - 2;
+
+        i9 = i6 + i8;
+
+        i10 = staticinvoke <T1: int foo(int,int)>(i6, i8);
+
+        i11 = i10 + i9;
+
+        i12 = i6 * i11;
+
+        $r0 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $r0.<java.io.PrintStream: void println(int)>(i12);
+
+        return;
+    }
+}

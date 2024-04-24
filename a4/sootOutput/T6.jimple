@@ -1,0 +1,53 @@
+public class T6 extends java.lang.Object
+{
+    static T6$A obj;
+
+    public void <init>()
+    {
+        T6 r0;
+
+        r0 := @this: T6;
+
+        specialinvoke r0.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        T6$B $r0;
+        java.io.PrintStream $r1;
+        java.lang.String[] r2;
+        int i1;
+
+        r2 := @parameter0: java.lang.String[];
+
+        $r0 = new T6$B;
+
+        specialinvoke $r0.<T6$B: void <init>()>();
+
+        <T6: T6$A obj> = $r0;
+
+        i1 = staticinvoke <T6: int getFactorial(int)>(5);
+
+        $r1 = <java.lang.System: java.io.PrintStream out>;
+
+        virtualinvoke $r1.<java.io.PrintStream: void println(int)>(i1);
+
+        return;
+    }
+
+    public static int getFactorial(int)
+    {
+        int i0, $i1;
+        T6$A $r0;
+
+        i0 := @parameter0: int;
+
+        $r0 = <T6: T6$A obj>;
+
+        $i1 = virtualinvoke $r0.<T6$A: int foo(int)>(i0);
+
+        return $i1;
+    }
+}
