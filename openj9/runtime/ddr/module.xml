@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Copyright (c) 2010, 2020 IBM Corp. and others
+
+This program and the accompanying materials are made available under
+the terms of the Eclipse Public License 2.0 which accompanies this
+distribution and is available at https://www.eclipse.org/legal/epl-2.0/
+or the Apache License, Version 2.0 which accompanies this distribution and
+is available at https://www.apache.org/licenses/LICENSE-2.0.
+
+This Source Code may also be made available under the following
+Secondary Licenses when the conditions for such availability set
+forth in the Eclipse Public License, v. 2.0 are satisfied: GNU
+General Public License, version 2 with the GNU Classpath
+Exception [1] and GNU General Public License, version 2 with the
+OpenJDK Assembly Exception [2].
+
+[1] https://www.gnu.org/software/classpath/license.html
+[2] http://openjdk.java.net/legal/assembly-exception.html
+
+SPDX-License-Identifier: EPL-2.0 OR Apache-2.0 OR GPL-2.0 WITH Classpath-exception-2.0 OR LicenseRef-GPL-2.0 WITH Assembly-exception
+-->
+<module>
+
+	<objects group="j9ddrgenapp">
+		<object name="copyright"/>
+		<object name="ddrmain"/>
+		<object name="ddrtable"/>
+		<object name="j9ddr"/>
+		<object name="sizeofBool"/>
+	</objects>
+
+	<artifact type="static" name="j9ddrautoblob">
+		<include-if condition="spec.flags.module_ddr"/>
+		<exclude-if condition="spec.flags.opt_useOmrDdr"/>
+		<phase>core j2se</phase>
+		<flags>
+			<flag name="UT_TRACE_OVERHEAD=0"/>
+			<flag name="$(TR_HOST)"/>
+			<flag name="TR_64Bit">
+				<include-if condition="spec.flags.J9VM_ENV_DATA64"/>
+			</flag>
+			<flag name="TR_HOST_64BIT">
+				<include-if condition="spec.flags.J9VM_ENV_DATA64"/>
+			</flag>
+			<flag name="TR_TARGET_64BIT">
+				<include-if condition="spec.flags.J9VM_ENV_DATA64"/>
+			</flag>
+			<flag name="TR_TARGET_32BIT">
+				<exclude-if condition="spec.flags.J9VM_ENV_DATA64"/>
+			</flag>
+			<flag name="TR_HOST_32BIT">
+				<exclude-if condition="spec.flags.J9VM_ENV_DATA64"/>
+			</flag>
+			<flag name="TR_TARGET_X86">
+				<include-if condition="spec.flags.module_jit_ia32"/>
+			</flag>
+			<flag name="TR_TARGET_ARM64">
+				<include-if condition="spec.flags.module_jit_aarch64"/>
+			</flag>
+			<flag name="TR_TARGET_POWER">
+				<include-if condition="spec.flags.module_jit_ppc"/>
+			</flag>
+			<flag name="TR_TARGET_RISCV">
+				<include-if condition="spec.flags.module_jit_riscv"/>
+			</flag>
+			<flag name="TR_TARGET_S390">
+				<include-if condition="spec.flags.module_jit_s390"/>
+			</flag>
+		</flags>
+
+		<includes>
+			<include path="omr/include_core" type="relativepath"/>
+			<include path="../rastrace" type="relativepath"/>
+			<include path="j9include"/>
+			<include path="j9oti"/>
+			<include path="j9gcinclude"/>
+			<include path="$(OMR_DIR)/gc/include" type="relativepath"/>
+			<include path="j9shrutil"/>
+			<include path="bcutil" type="relativepath"/>
+			<include path="shared_common" type="relativepath"/>
+			<include path="j9jvmti"/>
+			<include path="j9dmp"/>
+			<include path="j9trc"/>
+			<include path="j9util"/>
+			<include path="j9shrcommon"/>
+			<include path="jclcommon"/>
+			<include path="../jcl" type="relativepath"/>
+			<include path="bcverify"/>
+			<include path="../compiler/runtime" type="relativepath">
+				<include-if condition="spec.flags.J9VM_INTERP_NATIVE_SUPPORT"/>
+			</include>
+			<include path="../compiler" type="relativepath">
+				<include-if condition="spec.flags.J9VM_INTERP_NATIVE_SUPPORT"/>
+			</include>
+			<include path="$(OMR_DIR)/compiler" type="relativepath">
+				<include-if condition="spec.flags.J9VM_INTERP_NATIVE_SUPPORT"/>
+			</include>
+			<include path="$(OMR_DIR)/compiler/base" type="relativepath">
+				<include-if condition="spec.flags.J9VM_INTERP_NATIVE_SUPPORT"/>
+			</include>
+			<include path="$(OMR_DIR)/compiler/env" type="relativepath">
+				<include-if condition="spec.flags.J9VM_INTERP_NATIVE_SUPPORT"/>
+			</include>
+			<include path="$(OMR_DIR)/port" type="relativepath"/>
+			<include path="j9prt"/>
+			<include path="j9shr_include"/>
+			<include path="j9bcv"/>
+			<include path="j9vm"/>
+		</includes>
+		<makefilestubs>
+			<makefilestub data="UMA_TREAT_WARNINGS_AS_ERRORS=1"/>
+			<makefilestub data="UMA_DISABLE_DDRGEN=1"/>
+			<makefilestub data="include ddr_stubs.mk"/>
+			<makefilestub data="include ddr_cpp_headers.mk"/>
+		</makefilestubs>
+		<vpaths>
+			<vpath pattern="%" path="../dbgext" augmentIncludes="true" type="relativepath"/>
+			<vpath pattern="%" path="../bcutil" augmentIncludes="true" type="relativepath"/>
+		</vpaths>
+		<objects>
+			<object name="algorithm_versions"/>
+			<object name="ddrcppsupportblob"/>
+			<object name="jitddrblob"/>
+			<object name="jitflagsddr"/>
+			<object name="omrddrblob"/>
+			<object name="stackwalkddrblob"/>
+			<object name="vmddrblob"/>
+		</objects>
+	</artifact>
+
+	<artifact type="static" name="j9portautoblob">
+		<include-if condition="spec.flags.module_ddr"/>
+		<exclude-if condition="spec.flags.opt_useOmrDdr"/>
+		<phase>core j2se</phase>
+		<flags>
+			<flag name="$(TR_HOST)"/>
+			<flag name="TR_64Bit">
+				<include-if condition="spec.flags.J9VM_ENV_DATA64"/>
+			</flag>
+			<flag name="TR_HOST_64BIT">
+				<include-if condition="spec.flags.J9VM_ENV_DATA64"/>
+			</flag>
+			<flag name="TR_TARGET_64BIT">
+				<include-if condition="spec.flags.J9VM_ENV_DATA64"/>
+			</flag>
+			<flag name="TR_TARGET_32BIT">
+				<exclude-if condition="spec.flags.J9VM_ENV_DATA64"/>
+			</flag>
+			<flag name="TR_HOST_32BIT">
+				<exclude-if condition="spec.flags.J9VM_ENV_DATA64"/>
+			</flag>
+			<flag name="TR_TARGET_X86">
+				<include-if condition="spec.flags.module_jit_ia32"/>
+			</flag>
+			<flag name="TR_TARGET_ARM64">
+				<include-if condition="spec.flags.module_jit_aarch64"/>
+			</flag>
+			<flag name="TR_TARGET_POWER">
+				<include-if condition="spec.flags.module_jit_ppc"/>
+			</flag>
+			<flag name="TR_TARGET_RISCV">
+				<include-if condition="spec.flags.module_jit_riscv"/>
+			</flag>
+			<flag name="TR_TARGET_S390">
+				<include-if condition="spec.flags.module_jit_s390"/>
+			</flag>
+			<flag name="J9PORT_LIBRARY_DEFINE"/>
+			<flag name="OMRPORT_LIBRARY_DEFINE"/>
+		</flags>
+		<includes>
+			<include path="j9include"/>
+			<include path="j9oti"/>
+			<include path="$(OMR_DIR)/port" type="relativepath"/>
+			<include path="j9prt"/>
+		</includes>
+		<makefilestubs>
+			<makefilestub data="UMA_TREAT_WARNINGS_AS_ERRORS=1"/>
+			<makefilestub data="include ddr_stubs.mk"/>
+		</makefilestubs>
+		<vpaths>
+			<vpath pattern="%" path="$(OMR_DIR)/port/zos390" augmentIncludes="true" type="relativepath">
+				<include-if condition="spec.zos_390.*"/>
+			</vpath>
+			<vpath pattern="%" path="../port/zos390" augmentIncludes="true" type="relativepath">
+				<include-if condition="spec.zos_390.*"/>
+			</vpath>
+
+			<vpath pattern="%" path="$(OMR_DIR)/port/ztpf" augmentIncludes="true" type="relativepath">
+				<include-if condition="spec.linux_ztpf.*"/>
+			</vpath>
+
+			<vpath pattern="%" path="../port/ztpf" augmentIncludes="true" type="relativepath">
+				<include-if condition="spec.linux_ztpf.*"/>
+			</vpath>
+
+			<vpath pattern="%" path="$(OMR_DIR)/port/win64amd" augmentIncludes="true" type="relativepath">
+				<include-if condition="spec.win_x86-64.*"/>
+			</vpath>
+
+			<vpath pattern="%" path="$(OMR_DIR)/port/aix64" augmentIncludes="true" type="relativepath">
+				<include-if condition="spec.aix_ppc-64.*"/>
+			</vpath>
+			<vpath pattern="%" path="$(OMR_DIR)/port/aix" augmentIncludes="true" type="relativepath">
+				<include-if condition="spec.aix_ppc.*"/>
+			</vpath>
+
+			<vpath pattern="%" path="$(OMR_DIR)/port/linuxppc64" augmentIncludes="true" type="relativepath">
+				<include-if condition="spec.linux_ppc-64.*"/>
+			</vpath>
+			<vpath pattern="%" path="$(OMR_DIR)/port/linuxppc" augmentIncludes="true" type="relativepath">
+				<include-if condition="spec.linux_ppc.*"/>
+			</vpath>
+
+			<vpath pattern="%" path="$(OMR_DIR)/port/linuxamd64" augmentIncludes="true" type="relativepath">
+				<include-if condition="spec.linux_x86-64.*"/>
+			</vpath>
+
+			<vpath pattern="%" path="$(OMR_DIR)/port/linuxaarch64" augmentIncludes="true" type="relativepath">
+				<include-if condition="spec.linux_aarch64.*"/>
+			</vpath>
+
+			<vpath pattern="%" path="$(OMR_DIR)/port/linuxriscv64" augmentIncludes="true" type="relativepath">
+				<include-if condition="spec.linux_riscv64.*"/>
+			</vpath>
+
+			<vpath pattern="%" path="$(OMR_DIR)/port/linuxs39064" augmentIncludes="true" type="relativepath">
+				<include-if condition="spec.linux_390-64.*"/>
+				<include-if condition="spec.linux_ztpf.*"/>
+			</vpath>
+			<vpath pattern="%" path="$(OMR_DIR)/port/linuxs390" augmentIncludes="true" type="relativepath">
+				<include-if condition="spec.linux_390.*"/>
+				<include-if condition="spec.linux_ztpf.*"/>
+			</vpath>
+
+			<vpath pattern="%" path="$(OMR_DIR)/port/linux386" augmentIncludes="true" type="relativepath">
+				<include-if condition="spec.linux_x86.*"/>
+			</vpath>
+
+			<vpath pattern="%" path="$(OMR_DIR)/port/linux" augmentIncludes="true" type="relativepath">
+				<include-if condition="spec.linux.*"/>
+			</vpath>
+
+			<vpath pattern="%" path="../port/sysvipc" augmentIncludes="true" type="relativepath">
+				<exclude-if condition="spec.win_x86.*"/>
+			</vpath>
+
+			<vpath pattern="%" path="$(OMR_DIR)/port/unix_include" augmentIncludes="true" type="relativepath">
+				<exclude-if condition="spec.win_x86.*"/>
+			</vpath>
+			<vpath pattern="%" path="../port/unix_include" augmentIncludes="true" type="relativepath">
+				<exclude-if condition="spec.win_x86.*"/>
+			</vpath>
+
+			<vpath pattern="%" path="$(OMR_DIR)/port/unix" augmentIncludes="true" type="relativepath">
+				<exclude-if condition="spec.win_x86.*"/>
+			</vpath>
+
+			<vpath pattern="%" path="$(OMR_DIR)/port/win32_include" augmentIncludes="true" type="relativepath">
+				<include-if condition="spec.win_x86.*"/>
+			</vpath>
+			<vpath pattern="%" path="../port/win32_include" augmentIncludes="true" type="relativepath">
+				<include-if condition="spec.win_x86.*"/>
+			</vpath>
+
+			<vpath pattern="%" path="$(OMR_DIR)/port/win32" augmentIncludes="true" type="relativepath">
+				<include-if condition="spec.win_x86.*"/>
+			</vpath>
+
+			<vpath pattern="%" path="$(OMR_DIR)/port/common" augmentIncludes="true" type="relativepath"/>
+			<vpath pattern="%" path="j9prtcommon" augmentIncludes="true"/>
+			<vpath pattern="%" path="$(OMR_DIR)/port/include" augmentIncludes="true" type="relativepath"/>
+			<vpath pattern="%" path="../dbgext" augmentIncludes="true" type="relativepath"/>
+		</vpaths>
+		<objects>
+			<object name="j9portddrblob"/>
+		</objects>
+	</artifact>
+
+	<artifact type="executable" name="j9ddrgen">
+		<include-if condition="spec.flags.module_ddr"/>
+		<exclude-if condition="spec.flags.opt_useOmrDdr"/>
+		<options>
+			<option name="isCPlusPlus"/>
+			<option name="doesNotRequireCMAIN"/>
+		</options>
+		<phase>core j2se</phase>
+		<dependencies>
+			<dependency name="j9ddrautoblob"/>
+		</dependencies>
+		<includes>
+			<include path="j9include"/>
+			<include path="j9oti"/>
+		</includes>
+		<makefilestubs>
+			<makefilestub data="UMA_EXE_POSTFIX_FLAGS+=-static">
+				<include-if condition="spec.linux_arm.*"/>
+				<include-if condition="spec.linux_aarch64.* and spec.flags.env_crossbuild" />
+			</makefilestub>
+			<makefilestub data="UMA_TREAT_WARNINGS_AS_ERRORS=1"/>
+			<makefilestub data="include ddr_cpp_headers.mk"/>
+		</makefilestubs>
+		<objects>
+			<group name="j9ddrgenapp"/>
+		</objects>
+		<libraries>
+			<!--
+			Link the static OMR port library, without jsig.
+			This is needed to run j9ddrgen using the Linux ARM emulator,
+			but works for other platforms as well.
+			-->
+			<library name="j9prtstatic" type="external"/>
+
+			<library name="j9thrstatic" type="external">
+				<include-if condition="spec.linux_arm.*"/>
+				<include-if condition="spec.linux_aarch64.* and spec.flags.env_crossbuild" />
+			</library>
+			<library name="j9thr">
+				<exclude-if condition="spec.linux_arm.*"/>
+				<exclude-if condition="spec.linux_aarch64.* and spec.flags.env_crossbuild" />
+			</library>
+			<library name="j9portautoblob"/>
+			<library name="j9ddr_cppewautoblob"/>
+			<library name="j9hashtable" type="external"/>
+			<library name="j9avl" type="external"/>
+			<library name="j9pool" type="external"/>
+			<library name="j9exelib"/>
+			<library name="j9utilcore"/>
+			<library name="j9ddrautoblob"/>
+			<library name="j9gcautoblob"/>
+			<library name="omrsig">
+				<include-if condition="spec.flags.J9VM_PORT_OMRSIG_SUPPORT"/>
+			</library>
+
+			<!-- The following libs are needed to statically link the port library. -->
+			<library name="omrglue" type="external"/>
+			<library name="socket" type="macro"/>
+			<library name="iconv" type="system">
+				<include-if condition="spec.aix_.*"/>
+			</library>
+			<library name="perfstat" type="system">
+				<include-if condition="spec.aix_.*"/>
+			</library>
+			<library name="shell32.lib" type="system" delayload="true">
+				<include-if condition="spec.win_.*"/>
+			</library>
+			<library name="Iphlpapi.lib" type="system" delayload="true">
+				<include-if condition="spec.win_.*"/>
+			</library>
+			<library name="psapi.lib" type="system" delayload="true">
+				<include-if condition="spec.win_.*"/>
+			</library>
+			<library name="pdh.lib" type="system" delayload="true">
+				<include-if condition="spec.win_.*"/>
+			</library>
+		</libraries>
+	</artifact>
+
+	<artifact type="target" name="run_j9ddrgen">
+		<include-if condition="spec.flags.module_ddr"/>
+		<exclude-if condition="spec.flags.opt_useOmrDdr"/>
+		<phase>core j2se</phase>
+		<dependencies>
+			<dependency name="j9ddrgen"/>
+		</dependencies>
+		<commands>
+			<command line="cd $(UMA_PATH_TO_ROOT) &amp;&amp; ./j9ddrgen" type="all">
+				<exclude-if condition="spec.linux_arm.*"/>
+				<exclude-if condition="spec.linux_aarch64.* and spec.flags.env_crossbuild"/>
+				<exclude-if condition="spec.linux_ztpf.*"/>
+			</command>
+			<command line="cd $(UMA_PATH_TO_ROOT) &amp;&amp; qemu-arm -r '9' ./j9ddrgen" type="all">
+				<include-if condition="spec.linux_arm.*"/>
+			</command>
+			<command line="cd $(UMA_PATH_TO_ROOT) &amp;&amp; qemu-aarch64 -r '9' ./j9ddrgen" type="all">
+				<include-if condition="spec.linux_aarch64.* and spec.flags.env_crossbuild"/>
+			</command>
+			<command line="sleep 20;cd $(UMA_PATH_TO_ROOT); if [ -x ../build_j9ddrgen.sh ] &amp;&amp; [ ! -e ../j9ddrgen.completed ] ; then ../build_j9ddrgen.sh ; fi" type="all">
+				<include-if condition="spec.linux_ztpf.*"/>
+			</command>
+		</commands>
+	</artifact>
+
+	<artifact type="shared" name="j9ddr_misc">
+		<include-if condition="spec.flags.module_ddr and spec.flags.opt_useOmrDdr"/>
+		<phase>core</phase>
+		<!--
+		At least one symbol must be exported, but because this shared library
+		is only used by ddrgen it doesn't matter which name is exported.
+		-->
+		<exports>
+			<export name="getAlgorithmVersionStructTable" />
+		</exports>
+		<includes>
+			<include path="j9include"/>
+			<include path="j9oti"/>
+			<include path="j9gcbase"/>
+			<include path="$(OMR_DIR)/gc/base" type="relativepath"/>
+			<include path="$(OMR_DIR)/gc/base/segregated" type="relativepath"/>
+			<include path="j9modronstandard"/>
+			<include path="$(OMR_DIR)/gc/base/standard" type="relativepath"/>
+			<include path="j9gcstructs"/>
+			<include path="$(OMR_DIR)/gc/structs" type="relativepath"/>
+			<include path="j9gcstats"/>
+			<include path="$(OMR_DIR)/gc/stats" type="relativepath"/>
+			<include path="j9gcinclude"/>
+			<include path="$(OMR_DIR)/gc/include" type="relativepath"/>
+			<include path="j9modronstartup"/>
+			<include path="$(OMR_DIR)/gc/startup" type="relativepath"/>
+			<include path="j9gcgluejava"/>
+			<include path="j9realtime">
+				<include-if condition="spec.flags.J9VM_GC_REALTIME"/>
+			</include>
+			<include path="j9gcvlhgc"/>
+			<include path="$(OMR_DIR)/include_core" type="relativepath"/>
+			<include path="$(OMR_DIR)/compiler" type="relativepath">
+				<include-if condition="spec.flags.J9VM_INTERP_NATIVE_SUPPORT"/>
+			</include>
+			<include path="bcutil" type="rootpath"/>
+			<include path="j9shr_include"/>
+		</includes>
+		<makefilestubs>
+			<makefilestub data="CFLAGS += -femit-class-debug-always">
+				<include-if condition="spec.linux_390.*"/>
+				<include-if condition="spec.linux_aarch64.*"/>
+				<include-if condition="spec.linux_ppc.*_le"/>
+				<include-if condition="spec.linux_riscv64.*"/>
+				<include-if condition="spec.linux_x86.*"/>
+			</makefilestub>
+			<makefilestub data="CXXFLAGS += -femit-class-debug-always">
+				<include-if condition="spec.linux_390.*"/>
+				<include-if condition="spec.linux_aarch64.*"/>
+				<include-if condition="spec.linux_ppc.*_le"/>
+				<include-if condition="spec.linux_riscv64.*"/>
+				<include-if condition="spec.linux_x86.*"/>
+			</makefilestub>
+			<makefilestub data="UMA_DO_NOT_OPTIMIZE_CCODE = 1"/>
+			<makefilestub data="UMA_DLL_LINK_FLAGS += -bexpall">
+				<include-if condition="spec.aix_ppc.*"/>
+			</makefilestub>
+		</makefilestubs>
+		<objects>
+			<object name="algorithm_versions"/>
+			<object name="gcddr"/>
+			<object name="jitflagsddr"/>
+			<object name="omrddr"/>
+			<object name="types"/>
+			<object name="vmddr"/>
+		</objects>
+	</artifact>
+
+</module>
