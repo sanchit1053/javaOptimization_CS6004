@@ -1,0 +1,39 @@
+public class T6$A extends java.lang.Object
+{
+
+    public void <init>()
+    {
+        T6$A r0;
+
+        r0 := @this: T6$A;
+
+        specialinvoke r0.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+
+    int foo(int)
+    {
+        int i0, $i1, $i2;
+        T6$A r0;
+
+        r0 := @this: T6$A;
+
+        i0 := @parameter0: int;
+
+        $i1 = i0 + 1;
+
+        $i2 = $i1 * 20;
+
+        return $i2;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] r0;
+
+        r0 := @parameter0: java.lang.String[];
+
+        return;
+    }
+}

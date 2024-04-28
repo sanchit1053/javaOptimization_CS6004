@@ -4,11 +4,17 @@ public class T6 {
         int foo(int i){
             return (i+1)*20;
         }
+        public static void main(String[] args) {
+            
+        }
     }
     public static class B extends A{
         int foo(int i){
             if(i==0){return 1;}
             return i*foo(i-1);
+        }
+        public static void main(String[] args) {
+            
         }
     }
     static A obj;

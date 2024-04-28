@@ -1,38 +1,190 @@
 T1.class
-T2.class
-T3.class
-T4.class
-T5.class
-T6$A.class
-T6$B.class
-T6.class
-Soot started on Sun Apr 28 13:58:39 IST 2024
+Soot started on Sun Apr 28 14:26:04 IST 2024
 UDMS: 
-	<T6: void main(java.lang.String[])>
-	<T6: int getFactorial(int)>
-r2 := @parameter0: java.lang.String[] usebox: class soot.jimple.ParameterRef
-b0 = 5 usebox: class soot.jimple.IntConstant
-$r0 = new T6$B usebox: class soot.jimple.internal.JNewExpr
-specialinvoke $r0.<T6$B: void <init>()>() usebox: class soot.jimple.internal.JimpleLocal
-specialinvoke $r0.<T6$B: void <init>()>() usebox: class soot.jimple.internal.JSpecialInvokeExpr
-i0 := @parameter0: int usebox: class soot.jimple.ParameterRef
-$r0 = <T6: T6$A obj> usebox: class soot.jimple.StaticFieldRef
-$i1 = virtualinvoke $r0.<T6$A: int foo(int)>(i0) $r0, class soot.jimple.internal.JimpleLocal
-$i1 = virtualinvoke $r0.<T6$A: int foo(int)>(i0) usebox: class soot.jimple.internal.JVirtualInvokeExpr
-$i1 = virtualinvoke $r0.<T6$A: int foo(int)>(i0) usebox: class soot.jimple.internal.JimpleLocal
-$i1 = virtualinvoke $r0.<T6$A: int foo(int)>(i0) usebox: class soot.jimple.internal.JimpleLocal
-return $i1 usebox: class soot.jimple.internal.JimpleLocal
-i1 = staticinvoke <T6: int getFactorial(int)>(b0) usebox: class soot.jimple.internal.JStaticInvokeExpr
-i1 = staticinvoke <T6: int getFactorial(int)>(b0) usebox: class soot.jimple.internal.JimpleLocal
-$r1 = <java.lang.System: java.io.PrintStream out> usebox: class soot.jimple.StaticFieldRef
-virtualinvoke $r1.<java.io.PrintStream: void println(int)>(i1) $r1, class soot.jimple.internal.JimpleLocal
-virtualinvoke $r1.<java.io.PrintStream: void println(int)>(i1) usebox: class soot.jimple.internal.JimpleLocal
-virtualinvoke $r1.<java.io.PrintStream: void println(int)>(i1) usebox: class soot.jimple.internal.JimpleLocal
-virtualinvoke $r1.<java.io.PrintStream: void println(int)>(i1) usebox: class soot.jimple.internal.JVirtualInvokeExpr
+	<T1: int foo(int,int)>
+	<T1: void main(java.lang.String[])>
+virtualinvoke $r0.<java.io.PrintStream: void println(int)>(i12) $r0, class soot.jimple.internal.JimpleLocal
 impure methods: 
+<T1: void main(java.lang.String[])>
+Processing: <T1: void main(java.lang.String[])>
+invoke: i10 = staticinvoke <T1: int foo(int,int)>(i6, i8), #methods: 1
+evaluating...
+Soot finished on Sun Apr 28 14:26:32 IST 2024
+Soot has run for 0 min. 27 sec.
+T2.class
+Soot started on Sun Apr 28 14:26:32 IST 2024
+UDMS: 
+	<T2: double foo(double,double)>
+	<T2: void main(java.lang.String[])>
+	<T1: int foo(int,int)>
+	<T1: void main(java.lang.String[])>
+virtualinvoke $r0.<java.io.PrintStream: void println(double)>(d12) $r0, class soot.jimple.internal.JimpleLocal
+impure methods: 
+<T2: void main(java.lang.String[])>
+<T1: void main(java.lang.String[])>
+Processing: <T2: void main(java.lang.String[])>
+invoke: d10 = staticinvoke <T2: double foo(double,double)>(d6, d8), #methods: 1
+evaluating...
+Soot finished on Sun Apr 28 14:26:46 IST 2024
+Soot has run for 0 min. 13 sec.
+T3.class
+Soot started on Sun Apr 28 14:26:46 IST 2024
+UDMS: 
+	<T3: int factorial(int)>
+	<T2: double foo(double,double)>
+	<T3: void main(java.lang.String[])>
+	<T2: void main(java.lang.String[])>
+	<T1: int foo(int,int)>
+	<T1: void main(java.lang.String[])>
+virtualinvoke $r0.<java.io.PrintStream: void println(int)>($i1) $r0, class soot.jimple.internal.JimpleLocal
+impure methods: 
+<T3: void main(java.lang.String[])>
+<T2: void main(java.lang.String[])>
+<T1: void main(java.lang.String[])>
+Processing: <T3: void main(java.lang.String[])>
+invoke: $i1 = staticinvoke <T3: int factorial(int)>(b0), #methods: 1
+evaluating...
+Soot finished on Sun Apr 28 14:27:07 IST 2024
+Soot has run for 0 min. 21 sec.
+T4.class
+Soot started on Sun Apr 28 14:27:07 IST 2024
+UDMS: 
+	<T3: int factorial(int)>
+	<T2: double foo(double,double)>
+	<T4: int factorial(int)>
+	<T4: void main(java.lang.String[])>
+	<T3: void main(java.lang.String[])>
+	<T2: void main(java.lang.String[])>
+	<T1: int foo(int,int)>
+	<T1: void main(java.lang.String[])>
+	<T4: int factorial2(int)>
+virtualinvoke $r0.<java.io.PrintStream: void println(int)>($i1) $r0, class soot.jimple.internal.JimpleLocal
+impure methods: 
+<T4: void main(java.lang.String[])>
+<T3: void main(java.lang.String[])>
+<T2: void main(java.lang.String[])>
+<T1: void main(java.lang.String[])>
+Processing: <T4: void main(java.lang.String[])>
+invoke: $i1 = staticinvoke <T4: int factorial(int)>(b0), #methods: 1
+evaluating...
+Soot finished on Sun Apr 28 14:27:22 IST 2024
+Soot has run for 0 min. 14 sec.
+T5.class
+Soot started on Sun Apr 28 14:27:22 IST 2024
+UDMS: 
+	<T5: int factorial(int)>
+	<T3: int factorial(int)>
+	<T5: void main(java.lang.String[])>
+	<T2: double foo(double,double)>
+	<T4: int factorial(int)>
+	<T4: void main(java.lang.String[])>
+	<T3: void main(java.lang.String[])>
+	<T2: void main(java.lang.String[])>
+	<T1: int foo(int,int)>
+	<T1: void main(java.lang.String[])>
+	<T4: int factorial2(int)>
+$r2 = virtualinvoke $r0.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>("called with: ") $r0, class soot.jimple.internal.JimpleLocal
+$r3 = virtualinvoke $r2.<java.lang.StringBuilder: java.lang.StringBuilder append(int)>(i0) $r2, class soot.jimple.internal.JimpleLocal
+$r4 = virtualinvoke $r3.<java.lang.StringBuilder: java.lang.String toString()>() $r3, class soot.jimple.internal.JimpleLocal
+virtualinvoke $r1.<java.io.PrintStream: void println(java.lang.String)>($r4) $r1, class soot.jimple.internal.JimpleLocal
+virtualinvoke $r0.<java.io.PrintStream: void println(int)>($i1) $r0, class soot.jimple.internal.JimpleLocal
+impure methods: 
+<T5: int factorial(int)>
+<T5: void main(java.lang.String[])>
+<T4: void main(java.lang.String[])>
+<T3: void main(java.lang.String[])>
+<T2: void main(java.lang.String[])>
+<T1: void main(java.lang.String[])>
+Processing: <T5: void main(java.lang.String[])>
+invoke: $i1 = staticinvoke <T5: int factorial(int)>(b0), #methods: 1
+Soot finished on Sun Apr 28 14:27:38 IST 2024
+Soot has run for 0 min. 15 sec.
+T6$A.class
+Soot started on Sun Apr 28 14:27:38 IST 2024
+UDMS: 
+	<T3: int factorial(int)>
+	<T5: void main(java.lang.String[])>
+	<T2: double foo(double,double)>
+	<T4: int factorial(int)>
+	<T6$A: void main(java.lang.String[])>
+	<T4: void main(java.lang.String[])>
+	<T3: void main(java.lang.String[])>
+	<T2: void main(java.lang.String[])>
+	<T4: int factorial2(int)>
+	<T5: int factorial(int)>
+	<T1: int foo(int,int)>
+	<T1: void main(java.lang.String[])>
+	<T6$A: int foo(int)>
+impure methods: 
+<T5: int factorial(int)>
+<T5: void main(java.lang.String[])>
+<T4: void main(java.lang.String[])>
+<T3: void main(java.lang.String[])>
+<T2: void main(java.lang.String[])>
+<T1: void main(java.lang.String[])>
+Processing: <T6$A: void main(java.lang.String[])>
+Soot finished on Sun Apr 28 14:27:52 IST 2024
+Soot has run for 0 min. 13 sec.
+T6$B.class
+Soot started on Sun Apr 28 14:27:52 IST 2024
+UDMS: 
+	<T3: int factorial(int)>
+	<T5: void main(java.lang.String[])>
+	<T2: double foo(double,double)>
+	<T4: int factorial(int)>
+	<T6$A: void main(java.lang.String[])>
+	<T4: void main(java.lang.String[])>
+	<T6$B: void main(java.lang.String[])>
+	<T3: void main(java.lang.String[])>
+	<T6$B: int foo(int)>
+	<T2: void main(java.lang.String[])>
+	<T4: int factorial2(int)>
+	<T5: int factorial(int)>
+	<T1: int foo(int,int)>
+	<T1: void main(java.lang.String[])>
+	<T6$A: int foo(int)>
+impure methods: 
+<T5: int factorial(int)>
+<T5: void main(java.lang.String[])>
+<T4: void main(java.lang.String[])>
+<T3: void main(java.lang.String[])>
+<T2: void main(java.lang.String[])>
+<T1: void main(java.lang.String[])>
+Processing: <T6$B: void main(java.lang.String[])>
+Soot finished on Sun Apr 28 14:28:02 IST 2024
+Soot has run for 0 min. 10 sec.
+T6.class
+Soot started on Sun Apr 28 14:28:02 IST 2024
+UDMS: 
+	<T3: int factorial(int)>
+	<T5: void main(java.lang.String[])>
+	<T2: double foo(double,double)>
+	<T4: int factorial(int)>
+	<T6$A: void main(java.lang.String[])>
+	<T4: void main(java.lang.String[])>
+	<T6$B: void main(java.lang.String[])>
+	<T3: void main(java.lang.String[])>
+	<T6$B: int foo(int)>
+	<T2: void main(java.lang.String[])>
+	<T6: int getFactorial(int)>
+	<T4: int factorial2(int)>
+	<T5: int factorial(int)>
+	<T6: void main(java.lang.String[])>
+	<T1: int foo(int,int)>
+	<T1: void main(java.lang.String[])>
+	<T6$A: int foo(int)>
+$i1 = virtualinvoke $r0.<T6$A: int foo(int)>(i0) $r0, class soot.jimple.internal.JimpleLocal
+virtualinvoke $r1.<java.io.PrintStream: void println(int)>(i1) $r1, class soot.jimple.internal.JimpleLocal
+impure methods: 
+<T5: int factorial(int)>
+<T5: void main(java.lang.String[])>
+<T4: void main(java.lang.String[])>
+<T3: void main(java.lang.String[])>
 <T6: void main(java.lang.String[])>
+<T2: void main(java.lang.String[])>
 <T6: int getFactorial(int)>
+<T1: void main(java.lang.String[])>
 Processing: <T6: void main(java.lang.String[])>
 invoke: i1 = staticinvoke <T6: int getFactorial(int)>(b0), #methods: 1
-Soot finished on Sun Apr 28 13:59:05 IST 2024
-Soot has run for 0 min. 25 sec.
+Soot finished on Sun Apr 28 14:28:15 IST 2024
+Soot has run for 0 min. 12 sec.

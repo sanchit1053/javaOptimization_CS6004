@@ -35,16 +35,13 @@ public class T4 extends java.lang.Object
     public static void main(java.lang.String[])
     {
         java.io.PrintStream $r0;
-        int $i1;
         java.lang.String[] r1;
 
         r1 := @parameter0: java.lang.String[];
 
         $r0 = <java.lang.System: java.io.PrintStream out>;
 
-        $i1 = staticinvoke <T4: int factorial(int)>(5);
-
-        virtualinvoke $r0.<java.io.PrintStream: void println(int)>($i1);
+        virtualinvoke $r0.<java.io.PrintStream: void println(int)>(120);
 
         return;
     }

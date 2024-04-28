@@ -56,21 +56,7 @@ public class ConstantTransformer {
             };
         }
         body.getUnits().retainAll(essentialUnitsSet);
-        /*
-         backwards:
-         for unit in body...
-             for use in useboxes:
-                if(cp.before(unit).get(use) is constant){
-                    replace use by constant value...
-                }
-
-                //TODO: confirm this means use boxes of def unit are removed.
-
-            def = defboxes(unit).first
-            if(def.uses.size()==0){
-                body.remove(unit)
-            }
-        */
+        
     }
 
     private static boolean canRemoveUnit(Unit unit, ConstantPropagation cp) {
@@ -102,6 +88,8 @@ public class ConstantTransformer {
                         return false;
                     }
                 }
+                //all methods called here are pure.
+                //=> remove unit.
                 return true;
             }
 
