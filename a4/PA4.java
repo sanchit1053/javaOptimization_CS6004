@@ -49,9 +49,9 @@ public class PA4 {
                 String className = fname.split(Pattern.quote("."))[0];
                 sootArgs[sootArgs.length-1] = className;
                 sootArgs[sootArgs.length-2] = className;
-                // if(className.equals("T6")){
+                if(className.equals("T6")){
                     callSoot(sootArgs,analysisTransformer);
-                // }
+                }
             }
         }
         deleteFiles(copiedFiles);

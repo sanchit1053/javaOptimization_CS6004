@@ -92,14 +92,15 @@ public class PureMethodClassifier {
         }
         List<ValueBox> useBoxes = unit.getUseBoxes();
         for(ValueBox useBox:useBoxes){
-            if(!(useBox.getValue() instanceof Local)){
-                if(useBox.getValue() instanceof StaticFieldRef){
+            // System.out.println(unit.toString()+" usebox: "+useBox.getValue().getClass().toString());
+            Value v = useBox.getValue();
+            if(!(v instanceof Local)){
+                if(v instanceof StaticFieldRef){
                     return false;
                 }
-                else if(useBox.getValue() instanceof FieldRef){
+                else if(v instanceof FieldRef){
                     return false;
                 }
-                System.out.println(unit.toString()+" usebox: "+useBox.getValue().getClass().toString());
             }
         }
         return true;
