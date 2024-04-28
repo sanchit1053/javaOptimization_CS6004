@@ -1,0 +1,765 @@
+###############################################################################
+# Copyright (c) 2018, 2021 IBM Corp. and others
+#
+# This program and the accompanying materials are made available under
+# the terms of the Eclipse Public License 2.0 which accompanies this
+# distribution and is available at https://www.eclipse.org/legal/epl-2.0/
+# or the Apache License, Version 2.0 which accompanies this distribution and
+# is available at https://www.apache.org/licenses/LICENSE-2.0.
+#
+# This Source Code may also be made available under the following
+# Secondary Licenses when the conditions for such availability set
+# forth in the Eclipse Public License, v. 2.0 are satisfied: GNU
+# General Public License, version 2 with the GNU Classpath
+# Exception [1] and GNU General Public License, version 2 with the
+# OpenJDK Assembly Exception [2].
+#
+# [1] https://www.gnu.org/software/classpath/license.html
+# [2] http://openjdk.java.net/legal/assembly-exception.html
+#
+# SPDX-License-Identifier: EPL-2.0 OR Apache-2.0 OR GPL-2.0 WITH Classpath-exception-2.0 OR LicenseRef-GPL-2.0 WITH Assembly-exception
+###############################################################################
+#========================================#
+# Git repositories
+#========================================#
+# Eclipse OpenJ9 extensions repositories
+openjdk:
+  8:
+    default:
+      repoUrl: 'https://github.com/ibmruntimes/openj9-openjdk-jdk8.git'
+      branch: 'openj9'
+  11:
+    default:
+      repoUrl: 'https://github.com/ibmruntimes/openj9-openjdk-jdk11.git'
+      branch: 'openj9'
+  15:
+    default:
+      repoUrl: 'https://github.com/ibmruntimes/openj9-openjdk-jdk15.git'
+      branch: 'openj9'
+  16:
+    default:
+      repoUrl: 'https://github.com/ibmruntimes/openj9-openjdk-jdk16.git'
+      branch: 'openj9'
+  next:
+    default:
+      repoUrl: 'https://github.com/ibmruntimes/openj9-openjdk-jdk.git'
+      branch: 'openj9'
+# OpenJ9 & OMR Repos (used by ref repo updater)
+openj9:
+  default:
+    repoUrl: 'https://github.com/eclipse/openj9.git'
+omr:
+  default:
+    repoUrl: 'https://github.com/eclipse/omr.git'
+# AdoptOpenJDK Testing repository
+adoptopenjdk:
+  default:
+    repoUrl: 'https://github.com/AdoptOpenJDK/openjdk-tests.git'
+    branch: 'master'
+#========================================#
+# Artifactory settings
+#========================================#
+artifactory:
+  defaultGeo: 'osu'
+  server:
+    osu: 'ci-eclipse-openj9'
+    unb: 'ci-eclipse-openj9-unb'
+  repo:
+    default: 'ci-eclipse-openj9'
+  uploadDir:
+    default: "${repo}/${JOB_NAME}/${BUILD_ID}"
+  daysToKeepArtifacts:
+    osu: 40
+    unb: 30
+  manualCleanup:
+    osu: true
+    unb: true
+  vpn:
+    osu: false
+    unb: true
+#========================================#
+# Miscellaneous settings
+#========================================#
+misc:
+  jdk_image_dir:
+    all: 'jdk'
+    8: 'j2sdk-image'
+  test_keep_reportdir:
+    sanity.openjdk: 'true'
+    extended.openjdk: 'true'
+    special.openjdk: 'true'
+  sdk_filename_template:
+    default: "OpenJ9-JDK${SDK_VERSION}-${SPEC}-${DATESTAMP}${SDK_FILE_EXT}"
+credentials:
+  github: 'github-bot'
+test_dependencies_job_name: 'test.getDependency'
+slack_channel: '#jenkins'
+build_discarder:
+  logs:
+    Nightly: 35
+    Release: 5
+    OMR: 15
+    OpenJDK8: 5
+    OpenJDK11: 5
+    OpenJDK15: 5
+    OpenJDK16: 10
+    OpenJDK: 10
+    Personal: 30
+    Pipeline: 100
+restart_timeout:
+  time: '5'
+  units: 'HOURS'
+#========================================#
+# Debug information
+#========================================#
+debuginfo:
+  extra_configure_options:
+    8: '--disable-zip-debug-info'
+#========================================#
+# Large heap build
+#========================================#
+largeheap:
+  extra_configure_options: '--with-noncompressedrefs'
+#========================================#
+# Mixed references build
+#========================================#
+mixedrefs:
+  extra_configure_options: '--with-mixedrefs'
+#========================================#
+# Build with cmake
+#========================================#
+cmake:
+  extra_configure_options:
+    all: '--with-cmake'
+#========================================#
+# Build with uma
+#========================================#
+uma:
+  extra_configure_options:
+    all: '--with-cmake=no --with-mixedrefs=no'
+#========================================#
+# JITServer
+#========================================#
+jitserver:
+  extra_configure_options: '--enable-jitserver'
+  test_flags: 'JITAAS'
+#========================================#
+# OpenSSL
+#========================================#
+openssl:
+  extra_getsource_options: '--openssl-version=1.1.1j'
+  extra_configure_options: '--with-openssl=fetched'
+#========================================#
+# OpenSSL Bundling
+#========================================#
+openssl_bundle:
+  extra_configure_options: --enable-openssl-bundling
+#========================================#
+# Freemarker
+#========================================#
+freemarker:
+  freemarker: '/home/jenkins/freemarker.jar'
+#========================================#
+# Reference Repo
+#========================================#
+openjdk_reference_repo:
+  openjdk_reference_repo: '/home/jenkins/openjdk_cache'
+#========================================#
+# BootJDK Default values
+#========================================#
+boot_jdk_default:
+  boot_jdk:
+    location:
+      all: '${HOME}/bootjdks'
+    version:
+      8: '8'
+      11: '11'
+      15: '15'
+      16: '15'
+      next: '15'
+    dir_strip:
+      all: '1'
+#========================================#
+# Cuda
+#========================================#
+cuda:
+  extra_configure_options: '--enable-cuda'
+#========================================#
+# Cuda with version
+#========================================#
+cuda_version:
+  extends: ['cuda']
+  extra_configure_options: '--with-cuda=/usr/local/cuda-9.0'
+#========================================#
+# Valhalla
+#========================================#
+valhalla:
+  extra_configure_options: '--enable-inline-types'
+  test_build_list: 'functional/Valhalla,functional/cmdline_options_tester,functional/cmdLineTests/valuetypeddrtests'
+#========================================#
+# Valhalla Standard Testing
+#========================================#
+valhalla_standard:
+  extra_configure_options: '--enable-inline-types'
+#========================================#
+# OpenJDK JSR292
+#========================================#
+ojdk292:
+  extra_configure_options: '--enable-openjdk-methodhandles'
+#========================================#
+# Linux PPCLE 64bits Compressed Pointers
+#========================================#
+ppc64le_linux:
+  extends: ['boot_jdk_default', 'cuda_version', 'debuginfo', 'freemarker', 'openjdk_reference_repo', 'openssl']
+  boot_jdk:
+    arch: 'ppc64le'
+    os: 'linux'
+  release:
+    all: 'linux-ppc64le-server-release'
+    8: 'linux-ppc64le-normal-server-release'
+    11: 'linux-ppc64le-normal-server-release'
+  node_labels:
+    build: 'ci.role.build && hw.arch.ppc64le && sw.os.cent.7'
+  extra_configure_options:
+    all: '--enable-jitserver'
+  build_env:
+    cmd: 'source /home/jenkins/set_gcc7.5.0_env'
+#========================================#
+# Linux PPCLE 64bits Compressed Pointers /w cmake
+#========================================#
+ppc64le_linux_cm:
+  extends: ['ppc64le_linux', 'cmake']
+#========================================#
+# Linux PPCLE 64bits Compressed Pointers /w uma
+#========================================#
+ppc64le_linux_uma:
+  extends: ['ppc64le_linux', 'uma']
+#========================================#
+# Linux PPCLE 64bits Large Heap
+#========================================#
+ppc64le_linux_xl:
+  extends: ['ppc64le_linux', 'largeheap']
+  excluded_tests:
+    8:
+      - special.system
+    11:
+      - special.system
+#========================================#
+# Linux PPCLE 64bits Large Heap /w cmake
+#========================================#
+ppc64le_linux_xl_cm:
+  extends: ['ppc64le_linux_xl', 'cmake']
+#========================================#
+# Linux PPCLE 64bits Large Heap /w uma
+#========================================#
+ppc64le_linux_xl_uma:
+  extends: ['ppc64le_linux_xl', 'uma']
+#========================================#
+# Linux PPCLE 64bits Mixed References (CMake Only)
+#========================================#
+ppc64le_linux_mixed:
+  extends: ['ppc64le_linux', 'mixedrefs', 'cmake']
+#========================================#
+# Linux PPCLE 64bits Compressed Pointers /w JITSERVER
+#========================================#
+ppc64le_linux_jit:
+  extends: ['ppc64le_linux', 'jitserver']
+#========================================#
+# Linux S390 64bits Compressed Pointers
+# Note: boot_jdk 8 must use an Adopt JDK8 build rather than an
+#       IBM 7 for the bootJDK or compiling corba will fail to find Object.
+#========================================#
+s390x_linux:
+  extends: ['boot_jdk_default', 'debuginfo', 'freemarker', 'openjdk_reference_repo', 'openssl']
+  boot_jdk:
+    arch: 's390x'
+    os: 'linux'
+  release:
+    all: 'linux-s390x-server-release'
+    8: 'linux-s390x-normal-server-release'
+    11: 'linux-s390x-normal-server-release'
+  node_labels:
+    build: 'ci.role.build && hw.arch.s390x && sw.os.rhel.7'
+  build_env:
+    cmd: 'source /home/jenkins/set_gcc7.5.0_env'
+  excluded_tests:
+    8:
+      - special.system
+#========================================#
+# Linux S390 64bits Compressed Pointers /w cmake
+#========================================#
+s390x_linux_cm:
+  extends: ['s390x_linux', 'cmake']
+#========================================#
+# Linux S390 64bits Compressed Pointers /w uma
+#========================================#
+s390x_linux_uma:
+  extends: ['s390x_linux', 'uma']
+#========================================#
+# Linux S390 64bits Large Heap
+# Note: boot_jdk 8 must use an Adopt JDK8 build rather than an
+# IBM 7 for the bootJDK or compiling corba will fail to find Object.
+#========================================#
+s390x_linux_xl:
+  extends: ['s390x_linux', 'largeheap']
+  excluded_tests:
+     11:
+      - special.system
+#========================================#
+# Linux S390 64bits Large Heap /w cmake
+#========================================#
+s390x_linux_xl_cm:
+  extends: ['s390x_linux_xl', 'cmake']
+#========================================#
+# Linux S390 64bits Large Heap /w uma
+#========================================#
+s390x_linux_xl_uma:
+  extends: ['s390x_linux_xl', 'uma']
+#========================================#
+# Linux S390 64bits Mixed References (CMake Only)
+#========================================#
+s390x_linux_mixed:
+  extends: ['s390x_linux', 'mixedrefs', 'cmake']
+#========================================#
+# Linux S390 64bits Compressed Pointers /w JITSERVER
+#========================================#
+s390x_linux_jit:
+  extends: ['s390x_linux', 'jitserver']
+#========================================#
+# AIX PPC 64bits Compressed Pointers
+#========================================#
+ppc64_aix:
+  extends: ['boot_jdk_default', 'debuginfo', 'freemarker', 'openjdk_reference_repo', 'openssl']
+  boot_jdk:
+    location: '/opt/bootjdks'
+    arch: 'ppc64'
+    os: 'aix'
+  release:
+    all: 'aix-ppc64-server-release'
+    8: 'aix-ppc64-normal-server-release'
+    11: 'aix-ppc64-normal-server-release'
+  node_labels:
+    build: 'ci.role.build && hw.arch.ppc64 && sw.os.aix'
+  extra_configure_options:
+    all: '--with-cups-include=/opt/freeware/include'
+    8: ' --disable-ccache'
+    11: '--disable-warnings-as-errors'
+    15: '--disable-warnings-as-errors'
+    16: '--disable-warnings-as-errors'
+    next: '--disable-warnings-as-errors'
+  build_env:
+    vars:
+      8: 'PATH+XLC=/opt/IBM/xlC/13.1.3/bin:/opt/IBM/xlc/13.1.3/bin'
+      11: 'PATH+XLC=/opt/IBM/xlC/13.1.3/bin:/opt/IBM/xlc/13.1.3/bin'
+      15: 'PATH+XLC=/opt/IBM/xlC/16.1.0/bin:/opt/IBM/xlc/16.1.0/bin CC=xlclang CXX=xlclang++'
+      16: 'PATH+XLC=/opt/IBM/xlC/16.1.0/bin:/opt/IBM/xlc/16.1.0/bin CC=xlclang CXX=xlclang++'
+      next: 'PATH+XLC=/opt/IBM/xlC/16.1.0/bin:/opt/IBM/xlc/16.1.0/bin CC=xlclang CXX=xlclang++'
+  excluded_tests:
+    8:
+      - special.system
+#========================================#
+# AIX PPC 64bits Compressed Pointers /w CMake
+#========================================#
+ppc64_aix_cm:
+  extends: ['ppc64_aix', 'cmake']
+#========================================#
+# AIX PPC 64bits Compressed Pointers /w uma
+#========================================#
+ppc64_aix_uma:
+  extends: ['ppc64_aix', 'uma']
+#========================================#
+# AIX PPC 64bits Large Heap
+#========================================#
+ppc64_aix_xl:
+  extends: ['ppc64_aix', 'largeheap']
+  excluded_tests:
+    8:
+      - special.system
+    11:
+      - special.system
+#========================================#
+# AIX PPC 64bits Large Heap /w CMake
+#========================================#
+ppc64_aix_xl_cm:
+  extends: ['ppc64_aix_xl', 'cmake']
+#========================================#
+# AIX PPC 64bits Large Heap /w uma
+#========================================#
+ppc64_aix_xl_uma:
+  extends: ['ppc64_aix_xl', 'uma']
+#========================================#
+# AIX PPC 64bits Mixed References (CMake Only)
+#========================================#
+ppc64_aix_mixed:
+  extends: ['ppc64_aix', 'mixedrefs', 'cmake']
+#========================================#
+# Linux x86 64bits Compressed Pointers
+#========================================#
+x86-64_linux:
+  extends: ['boot_jdk_default', 'cuda_version', 'debuginfo', 'freemarker', 'openjdk_reference_repo', 'openssl']
+  boot_jdk:
+    arch: 'x64'
+    os: 'linux'
+  release:
+    all: 'linux-x86_64-server-release'
+    8: 'linux-x86_64-normal-server-release'
+    11: 'linux-x86_64-normal-server-release'
+  node_labels:
+    build:
+      all: 'ci.role.build && hw.arch.x86 && sw.os.cent.7'
+      8: 'ci.role.build && hw.arch.x86 && sw.os.cent.6'
+      11: 'ci.role.build && hw.arch.x86 && sw.os.cent.6'
+  extra_configure_options:
+    all: '--enable-jitserver'
+  build_env:
+    cmd: 'source /home/jenkins/set_gcc7.5.0_env'
+    vars: 'OPENJ9_JAVA_OPTIONS=-Xdump:system+java:events=systhrow,filter=java/lang/ClassCastException,request=exclusive+prepwalk+preempt'
+  extra_test_labels:
+    15: '!sw.os.cent.6'
+    16: '!sw.os.cent.6'
+    next: '!sw.os.cent.6'
+  excluded_tests:
+    11:
+      - special.system
+#========================================#
+# Linux x86 64bits Compressed Pointers /w CMake
+#========================================#
+x86-64_linux_cm:
+  extends: ['x86-64_linux', 'cmake']
+  excluded_tests:
+    8:
+      - extended.functional
+      - sanity.system
+      - extended.system
+      - special.system
+#========================================#
+# Linux x86 64bits Compressed Pointers /w uma
+#========================================#
+x86-64_linux_uma:
+  extends: ['x86-64_linux', 'uma']
+#========================================#
+# Linux x86 64bits Large Heap /w CMake
+#========================================#
+x86-64_linux_xl_cm:
+  extends: ['x86-64_linux_xl', 'cmake']
+  excluded_tests:
+      - extended.functional
+      - sanity.system
+      - extended.system
+#========================================#
+# Linux x86 64bits Large Heap /w uma
+#========================================#
+x86-64_linux_xl_uma:
+  extends: ['x86-64_linux_xl', 'uma']
+#========================================#
+# Linux x86 64bits Compressed Pointers /w JITSERVER
+#========================================#
+x86-64_linux_jit:
+  extends: ['x86-64_linux', 'jitserver']
+#========================================#
+# Linux x86 64bits Large Heap
+#========================================#
+x86-64_linux_xl:
+  extends: ['x86-64_linux', 'largeheap']
+  excluded_tests:
+    8:
+      - special.system
+#========================================#
+# Linux x86 64bits Mixed References (CMake Only)
+#========================================#
+x86-64_linux_mixed:
+  extends: ['x86-64_linux', 'mixedrefs', 'cmake']
+#========================================#
+# Linux x86 64bits Compressed Pointers / Valhalla
+#========================================#
+x86-64_linux_valhalla:
+  extends: ['x86-64_linux', 'valhalla']
+#========================================#
+# Linux x86 64bits Compressed Pointers / Valhalla Standard Testing
+#========================================#
+x86-64_linux_vt_standard:
+  extends: ['x86-64_linux', 'valhalla_standard']
+#========================================#
+# Linux Aarch 64bits Compressed Pointers
+#========================================#
+aarch64_linux:
+  extends: ['boot_jdk_default', 'debuginfo', 'freemarker', 'openjdk_reference_repo', 'openssl']
+  boot_jdk:
+    arch: 'aarch64'
+    os: 'linux'
+  release:
+    all: 'linux-aarch64-server-release'
+    8: 'linux-aarch64-normal-server-release'
+    11: 'linux-aarch64-normal-server-release'
+  node_labels:
+    build: 'ci.role.build && hw.arch.aarch64 && sw.os.cent.7'
+  build_env:
+    vars: 'PATH+TOOLS=/usr/local/gcc-7.5.0/bin'
+#========================================#
+# Linux Aarch 64bits Compressed Pointers /w cmake
+#========================================#
+aarch64_linux_cm:
+  extends: ['aarch64_linux', 'cmake']
+#========================================#
+# Linux Aarch 64bits Compressed Pointers /w uma
+#========================================#
+aarch64_linux_uma:
+  extends: ['aarch64_linux', 'uma']
+#========================================#
+# Linux Aarch 64bits Large Heap
+#========================================#
+aarch64_linux_xl:
+  extends: ['aarch64_linux', 'largeheap']
+#========================================#
+# Linux Aarch 64bits Large Heap /w cmake
+#========================================#
+aarch64_linux_xl_cm:
+  extends: ['aarch64_linux_xl', 'cmake']
+#========================================#
+# Linux Aarch 64bits Large Heap /w uma
+#========================================#
+aarch64_linux_xl_uma:
+  extends: ['aarch64_linux_xl', 'uma']
+#========================================#
+# Linux Aarch 64bits Mixed References (CMake Only)
+#========================================#
+aarch64_linux_mixed:
+  extends: ['aarch64_linux', 'mixedrefs', 'cmake']
+#========================================#
+# Windows x86 64bits Compressed Pointers
+#========================================#
+x86-64_windows:
+  extends: ['boot_jdk_default', 'cuda', 'debuginfo', 'openjdk_reference_repo', 'openssl_bundle']
+  boot_jdk:
+    location:
+      all: '/cygdrive/f/Users/jenkins/bootjdks'
+    arch: 'x64'
+    os: 'windows'
+  release:
+    all: 'windows-x86_64-server-release'
+    8: 'windows-x86_64-normal-server-release'
+    11: 'windows-x86_64-normal-server-release'
+  freemarker: '/cygdrive/c/openjdk/freemarker.jar'
+  extra_configure_options:
+    all: '--disable-ccache --with-cuda="C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v9.0"'
+    8: '--with-toolchain-version=2013 --with-freetype-src=/cygdrive/c/openjdk/freetype-2.5.3 --with-openssl=/cygdrive/c/openjdk/OpenSSL-1.1.1j-x86_64-VS2013'
+    11: '--with-toolchain-version=2017 --with-openssl=/cygdrive/c/openjdk/OpenSSL-1.1.1j-x86_64-VS2017'
+    15: '--with-toolchain-version=2019 --with-openssl=/cygdrive/c/openjdk/OpenSSL-1.1.1j-x86_64-VS2019'
+    16: '--with-toolchain-version=2019 --with-openssl=/cygdrive/c/openjdk/OpenSSL-1.1.1j-x86_64-VS2019'
+    next: '--with-toolchain-version=2019 --with-openssl=/cygdrive/c/openjdk/OpenSSL-1.1.1j-x86_64-VS2019'
+  node_labels:
+    build: 'ci.role.build && hw.arch.x86 && sw.os.windows'
+  build_env:
+    vars: 'PATH+TOOLS=/cygdrive/c/openjdk/LLVM64/bin:/cygdrive/c/openjdk/nasm-2.13.03'
+  excluded_tests:
+    8:
+      - special.system
+    11:
+      - special.system
+#========================================#
+# Windows x86 64bits Compressed Pointers /w cmake
+#========================================#
+x86-64_windows_cm:
+   extends: ['x86-64_windows', 'cmake']
+#========================================#
+# Windows x86 64bits Compressed Pointers /w uma
+#========================================#
+x86-64_windows_uma:
+   extends: ['x86-64_windows', 'uma']
+#========================================#
+# Windows x86 64bits Large Heap
+#========================================#
+x86-64_windows_xl:
+  extends: ['x86-64_windows', 'largeheap']
+#========================================#
+# Windows x86 64bits Large Heap /w cmake
+#========================================#
+x86-64_windows_xl_cm:
+  extends: ['x86-64_windows_xl', 'cmake']
+#========================================#
+# Windows x86 64bits Large Heap /w uma
+#========================================#
+x86-64_windows_xl_uma:
+  extends: ['x86-64_windows_xl', 'uma']
+#========================================#
+# Windows x86 64bits Mixed References (CMake Only)
+#========================================#
+x86-64_windows_mixed:
+  extends: ['x86-64_windows', 'mixedrefs', 'cmake']
+#========================================#
+# Windows x86 32bits
+#========================================#
+x86-32_windows:
+  extends: ['boot_jdk_default', 'debuginfo', 'openjdk_reference_repo', 'openssl_bundle']
+  boot_jdk:
+    location:
+      all: '/cygdrive/f/Users/jenkins/bootjdks'
+    arch: 'x64'
+    os: 'windows'
+  release:
+    8: 'windows-x86-normal-server-release'
+  extra_configure_options:
+    8: '--with-toolchain-version=2013 --with-freetype-src=/cygdrive/c/openjdk/freetype-2.5.3 --with-target-bits=32 --disable-ccache --with-openssl=/cygdrive/c/openjdk/OpenSSL-1.1.1j-x86_32-VS2013'
+  freemarker: '/cygdrive/c/openjdk/freemarker.jar'
+  node_labels:
+    build:
+      8: 'ci.role.build && hw.arch.x86 && sw.os.windows'
+  build_env:
+    vars:
+      8: 'PATH+TOOLS=/cygdrive/c/openjdk/LLVM32/bin:/cygdrive/c/openjdk/nasm-2.13.03'
+  excluded_tests:
+    8:
+      - special.system
+#========================================#
+# Windows x86 32bits /w cmake
+#========================================#
+x86-32_windows_cm:
+   extends: ['x86-32_windows', 'cmake']
+#========================================#
+# Windows x86 32bits /w uma
+#========================================#
+x86-32_windows_uma:
+   extends: ['x86-32_windows', 'uma']
+#========================================#
+# OSX x86 64bits Compressed Pointers
+#========================================#
+x86-64_mac:
+  extends: ['boot_jdk_default', 'debuginfo', 'openssl', 'openssl_bundle']
+  boot_jdk:
+    arch: 'x64'
+    os: 'mac'
+    dir_strip:
+      all: '3'
+  release:
+    all: 'macosx-x86_64-server-release'
+    8: 'macosx-x86_64-normal-server-release'
+    11: 'macosx-x86_64-normal-server-release'
+  extra_configure_options:
+    8: '--with-toolchain-type=clang --with-freetype=/usr/local/freetype-2.9.1'
+  freemarker: '/Users/jenkins/freemarker.jar'
+  openjdk_reference_repo: '/Users/jenkins/openjdk_cache'
+  node_labels:
+    build: 'ci.role.build && hw.arch.x86 && sw.os.osx.10_14'
+  build_env:
+    vars: 'OPENJ9_JAVA_OPTIONS=-Xdump:system+java:events=systhrow,filter=java/lang/ClassCastException,request=exclusive+prepwalk+preempt'
+  excluded_tests:
+    8:
+      - special.system
+    11:
+      - special.system
+#========================================#
+# OSX x86 64bits Large Heap
+#========================================#
+x86-64_mac_xl:
+  extends: ['x86-64_mac', 'largeheap']
+  excluded_tests:
+    8:
+      - special.system
+#========================================#
+# OSX x86 64bits Mixed References (CMake Only)
+#========================================#
+x86-64_mac_mixed:
+  extends: ['x86-64_mac', 'mixedrefs', 'cmake']
+#========================================#
+# OSX x86 64bits Compressed Pointers /w CMake
+#========================================#
+x86-64_mac_cm:
+  extends: ['x86-64_mac', 'cmake']
+#========================================#
+# OSX x86 64bits Large Heap /w CMake
+#========================================#
+x86-64_mac_xl_cm:
+  extends: ['x86-64_mac_xl', 'cmake']
+#========================================#
+# OSX x86 64bits Compressed Pointers /w UMA
+#========================================#
+x86-64_mac_uma:
+  extends: ['x86-64_mac', 'uma']
+#========================================#
+# OSX x86 64bits Large Heap /w UMA
+#========================================#
+x86-64_mac_xl_uma:
+  extends: ['x86-64_mac_xl', 'uma']
+#========================================#
+# Linux PPCLE 64bits Compressed Pointers /w OpenJDK JSR292
+#========================================#
+ppc64le_linux_ojdk292:
+  extends: ['ppc64le_linux', 'ojdk292']
+#========================================#
+# Linux PPCLE 64bits Large Heap /w OpenJDK JSR292
+#========================================#
+ppc64le_linux_xl_ojdk292:
+  extends: ['ppc64le_linux_xl', 'ojdk292']
+#========================================#
+# Linux S390 64bits Compressed Pointers /w OpenJDK JSR292
+#========================================#
+s390x_linux_ojdk292:
+  extends: ['s390x_linux', 'ojdk292']
+#========================================#
+# Linux S390 64bits Large Heap /w OpenJDK JSR292
+#========================================#
+s390x_linux_xl_ojdk292:
+  extends: ['s390x_linux_xl', 'ojdk292']
+#========================================#
+# AIX PPC 64bits Compressed Pointers /w OpenJDK JSR292
+#========================================#
+ppc64_aix_ojdk292:
+  extends: ['ppc64_aix', 'ojdk292']
+#========================================#
+# AIX PPC 64bits Large Heap /w OpenJDK JSR292
+#========================================#
+ppc64_aix_xl_ojdk292:
+  extends: ['ppc64_aix_xl', 'ojdk292']
+#========================================#
+# Linux x86 64bits Compressed Pointers /w OpenJDK JSR292
+#========================================#
+x86-64_linux_ojdk292:
+  extends: ['x86-64_linux', 'ojdk292']
+#========================================#
+# Linux x86 64bits Large Heap /w OpenJDK JSR292
+#========================================#
+x86-64_linux_xl_ojdk292:
+  extends: ['x86-64_linux_xl', 'ojdk292']
+#========================================#
+# Windows x86 64bits Compressed Pointers /w OpenJDK JSR292
+#========================================#
+x86-64_windows_ojdk292:
+   extends: ['x86-64_windows', 'ojdk292']
+#========================================#
+# Windows x86 64bits Large Heap /w OpenJDK JSR292
+#========================================#
+x86-64_windows_xl_ojdk292:
+  extends: ['x86-64_windows_xl', 'ojdk292']
+#========================================#
+# Windows x86 32bits /w OpenJDK JSR292
+#========================================#
+x86-32_windows_ojdk292:
+   extends: ['x86-32_windows', 'ojdk292']
+#========================================#
+# OSX x86 64bits Compressed Pointers /w OpenJDK JSR292
+#========================================#
+x86-64_mac_ojdk292:
+  extends: ['x86-64_mac', 'ojdk292']
+#========================================#
+# OSX x86 64bits Large Heap /w OpenJDK JSR292
+#========================================#
+x86-64_mac_xl_ojdk292:
+  extends: ['x86-64_mac_xl', 'ojdk292']
+
+#========================================#
+# AOT testing
+#========================================#
+aot:
+  test_flags: 'AOT'
+ppc64_aix_aot:
+  extends: ['ppc64_aix', 'aot']
+ppc64le_linux_aot:
+  extends: ['ppc64le_linux', 'aot']
+s390x_linux_aot:
+  extends: ['s390x_linux', 'aot']
+x86-64_linux_aot:
+  extends: ['x86-64_linux', 'aot']
+x86-64_mac_aot:
+  extends: ['x86-64_mac', 'aot']
+x86-64_windows_aot:
+  extends: ['x86-64_windows', 'aot']
