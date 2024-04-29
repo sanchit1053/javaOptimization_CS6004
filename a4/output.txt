@@ -1,0 +1,83 @@
+///////////////////////////// T1 ///////////////////////////////
+
+/////////// Original ////////////
+METHOD -> T1.main([Ljava/lang/String;)V (000000000012C288)
+/*---------------STATS --------------*/
+ add 37, sub 27, mul 6, div 0, func 208
+ total arithmatic 70
+
+/////////// Optimization ////////
+METHOD -> T1.main([Ljava/lang/String;)V (000000000012C268)
+/*---------------STATS --------------*/
+ add 31, sub 26, mul 2, div 0, func 207
+ total arithmatic 59
+
+///////////////////////////// T2 ///////////////////////////////
+
+/////////// Original ////////////
+METHOD -> T2.main([Ljava/lang/String;)V (000000000012C288)
+/*---------------STATS --------------*/
+ add 46, sub 37, mul 4, div 2, func 258
+ total arithmatic 89
+
+/////////// Optimization ////////
+METHOD -> T2.main([Ljava/lang/String;)V (000000000012C268)
+/*---------------STATS --------------*/
+ add 40, sub 36, mul 0, div 2, func 257
+ total arithmatic 78
+
+///////////////////////////// T3 ///////////////////////////////
+
+/////////// Original ////////////
+METHOD -> T3.main([Ljava/lang/String;)V (000000000012C268)
+/*---------------STATS --------------*/
+ add 32, sub 32, mul 8, div 0, func 215
+ total arithmatic 72
+
+/////////// Optimization ////////
+METHOD -> T3.main([Ljava/lang/String;)V (000000000012C288)
+/*---------------STATS --------------*/
+ add 32, sub 27, mul 3, div 0, func 208
+ total arithmatic 62
+
+///////////////////////////// T4 ///////////////////////////////
+
+/////////// Original ////////////
+METHOD -> T4.main([Ljava/lang/String;)V (000000000012C298)
+/*---------------STATS --------------*/
+ add 32, sub 32, mul 8, div 0, func 215
+ total arithmatic 72
+
+/////////// Optimization ////////
+METHOD -> T4.main([Ljava/lang/String;)V (000000000012C2B8)
+/*---------------STATS --------------*/
+ add 32, sub 27, mul 3, div 0, func 209
+ total arithmatic 62
+
+///////////////////////////// T5 ///////////////////////////////
+
+/////////// Original ////////////
+METHOD -> T5.main([Ljava/lang/String;)V (000000000012C2D8)
+/*---------------STATS --------------*/
+ add 192, sub 167, mul 13, div 0, func 1231
+ total arithmatic 372
+
+/////////// Optimization ////////
+METHOD -> T5.main([Ljava/lang/String;)V (000000000012C2F8)
+/*---------------STATS --------------*/
+ add 192, sub 167, mul 13, div 0, func 1231
+ total arithmatic 372
+
+///////////////////////////// T6 ///////////////////////////////
+
+/////////// Original ////////////
+METHOD -> T6.main([Ljava/lang/String;)V (000000000012C2D8)
+/*---------------STATS --------------*/
+ add 32, sub 32, mul 8, div 0, func 219
+ total arithmatic 72
+
+/////////// Optimization ////////
+METHOD -> T6.main([Ljava/lang/String;)V (000000000012C2D8)
+/*---------------STATS --------------*/
+ add 32, sub 32, mul 8, div 0, func 219
+ total arithmatic 72
